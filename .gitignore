@@ -1,0 +1,24 @@
+## some directories
+*.pdf
+
+## some core latex/pdflatex auxiliary files
+*.aux
+*.fls
+*.log
+*.out
+*.toc
+
+## some build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+
+## some beamer auxiliary files
+*.nav
+*.snm
+
+# more at
+# https://github.com/github/gitignore
+# specifically: https://github.com/github/gitignore/blob/main/TeX.gitignore
