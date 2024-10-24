@@ -1,0 +1,185 @@
+\documentclass{article}
+\usepackage[top=2cm, left=2cm, right=2cm, bottom=3cm]{geometry}
+%\usepackage{lipsum} % untuk \lipsum
+
+\title{Rencana Proyek, Mata Kuliah Pemrograman Fungsional: \\
+\textit{Human Task Scheduler} dengan Metaheuristik Algoritma Genetika di Haskell}
+\author{Tim/Kelompok: satu orang (individu) \\
+Bisma Rohpanca Joyosumarto (2106635581)}
+\date{Oktober 2024}
+
+% agar tidak ada indentasi dan tidak perlu \noindent
+\setlength{\parindent}{0pt}
+
+% terkait link/hyperlink
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue % bisa juga misalnya cyan
+}
+
+\begin{document}
+
+\maketitle
+
+\textbf{Topik:}
+\begin{itemize}
+    \item \textbf{Utama:} Metaheuristik "algoritma genetika" \textit{(genetic algorithm)} dengan pendekatan fungsional
+    \begin{itemize}
+        \item Memiliki unsur \textit{random}, yang kemudian harus diurus secara \textit{purely functional}
+    \end{itemize}
+    \item Masalah optimasi berupa penjadwalan pengerjaan tugas (berkaitan dengan manajemen waktu) untuk manusia, sebagai contoh penerapan metaheuristik \textit{(metaheuristics)}
+\end{itemize}
+
+Note: saya sudah cukup familiar dengan metaheuristik dan masalah optimasi di Departemen Matematika, hanya saja belum pernah menyelam perihal \textit{job scheduling} atau semacamnya. \\
+
+\textbf{Teknologi yang digunakan:} Haskell.
+
+\begin{itemize}
+    \item Untuk \textit{backend}: Haskell
+    \item Untuk \textit{frontend}: Masih sedang memilih antara beberapa teknologi \textit{frontend} untuk Haskell. Saat ini sedang memilih antara \textbf{Miso} (\url{https://haskell-miso.org/}) atau \textbf{Reflex} (\url{https://reflex-frp.org/})
+\end{itemize}
+
+\textbf{URL-Repository:} \url{https://github.com/BismaBRJ/human-task-scheduler-genetic-algo-hs}
+
+\section*{Target per pekan}
+
+\subsection*{Target Progress 1 (31 Oktober 2024)}
+
+Menyusun \textit{greedy task scheduler} sederhana, belum melibatkan metaheuristik dan belum memiliki \textit{frontend}. Masih melalui \textit{command line} atau terminal. Tujuannya adalah menyiapkan struktur data dan sistem I/O \textit{(input/output)}, juga memulai proses perumusan masalah optimasi.
+
+\begin{enumerate}
+    \item Menyusun struktur data tugas \textit{(task)} termasuk menyimpan \textit{deadline} dan jadwal pengerjaannya, struktur data jadwal (mungkin sebagai sekumpulan tugas), struktur data jam kosong (yang nantinya bisa dijadwalkan pengerjaan tugas di jam segitu), dan mungkin struktur data lainnya kalau diperlukan.
+    \item Juga menyiapkan beberapa fungsi yang bisa dengan mudah meng-\textit{extract} data tertentu, misalnya memperoleh semua \textit{deadline}, atau memperoleh tugas dengan \textit{deadline} terawal.
+
+    \item Menyiapkan kendala \textit{(constraints)} paling sederhana, yaitu bahwa tugas sebaiknya/harus dikerjakan sebelum \textit{deadline}, dan dua tugas tidak bisa dikerjakan secara bersamaan, dalam bentuk fungsi.
+    
+    Mungkin fungsi akan \textit{return} tipe data \textbf{Bool}, atau bisa juga berupa nilai (berapa satuan waktu sebelum \textit{deadline}; semakin besar, semakin baik).
+
+    Persiapan kendala adalah dalam rangka memformulasikan masalah optimasi yang perlu diselesaikan.
+
+    \item Mempelajari dan menyusun algoritma \textit{greedy} untuk penjadwalan, secara \textit{purely functional}, hingga bisa digunakan sebagai fungsi.
+    
+    Mungkin masih sangat sederhana, intinya semua tugas terjadwal se-awal mungkin, dan yang dikerjakan terlebih dahulu adalah yang paling dekat \textit{deadline}-nya, belum ada \textit{break} antar jadwal pengerjaan tugas.
+
+    Mungkin saja melibatkan studi literatur.
+\end{enumerate}
+
+\textbf{Konsep pemrograman fungsional yang terlibat:} konsep dasar seperti rekursi, \textit{pattern matching}, tipe data, serba-serbi list (terutama cons dan/atau append, mungkin \textit{list comprehension} juga).
+
+\subsection*{Target Progress 2 (7 November 2024)}
+
+Mulai membuat \textit{frontend} atau UI \textit{(user interface)} sederhana, agar tugas bisa diinput dan hasil penjadwalan bisa ditampilkan. Juga memperbaiki sedikit, algoritma \textit{greedy} yang sudah dibuat agar juga mengadakan \textit{break} antar jadwal pengerjaan dua tugas.
+
+\begin{enumerate}
+    \item Memilih antara Miso atau Reflex, lalu mempelajari \textit{framework} yang dipilih dan menggunakannya untuk membuat UI sederhana untuk input tugas dan menampilkan jadwal.
+    
+    Juga mempelajari bagaimana \textit{frontend} bisa disambung dengan \textit{backend}.
+
+    \item Memodifikasi sedikit algoritma \textit{greedy} yang dibuat agar juga berusaha mengadakan \textit{break} antar dua jadwal pengerjaan tugas, tetap mematuhi kendala bahwa tiap tugas sebaiknya/harus diselesaikan sebelum \textit{deadline}.
+    
+    Mungkin saja melibatkan studi literatur.
+\end{enumerate}
+
+\textbf{Konsep pemrograman fungsional yang terlibat:} sudah mulai bermain dengan dunia luar yang sifatnya \textit{impure}, sehingga mungkin sudah melibatkan konsep seperti \textbf{Monad}. Juga tetap melibatkan konsep dasar, dalam rangka memodifikasi algoritma \textit{greedy} tersebut.
+
+\subsection*{Target Progress 3 (14 November 2024)}
+
+Mulai mengimplementasikan algoritma genetika. Juga menambahkan fitur di \textit{frontend} agar bisa input parameter untuk algoritma genetika.
+
+\begin{enumerate}
+    \item Merumuskan masalah optimasi untuk permasalahan ini, meliputi fungsi objektif \textit{(objective function)}, juga disebut \textit{fitness function}, yang ingin dimaksimumkan, dan juga meliputi semua kendala yang sudah dipertimbangkan sejauh ini.
+    
+    Formulasi masalah optimasi bisa saja melibatkan parameter yang kemudian bisa ditentukan, biasanya untuk menentukan prioritas, misalnya antara seberapa awal tugas dikerjakan sebelum \textit{deadline} dan seberapa lama \textit{break} antar pengerjaan dua tugas.
+    
+    Mungkin saja melibatkan studi literatur.
+
+    \item Mempelajari dan mengimplementasikan algoritma genetika, terutama tahap \textit{crossover}, \textit{mutation}, dan \textit{selection}.
+    
+    Algoritma genetika aslinya bersifat iteratif, sehingga di sini harus diimplementasikan secara rekursif.
+
+    Ketiga tahap tersebut memiliki unsur \textit{random}, yang juga menjadi tantangan tersendiri dalam \textit{purely functional programming}.
+    
+    Juga mengimplementasikan fungsi-fungsi untuk tahap-tahap tersebut, khusus untuk konteks permasalahan yang sedang dihadapi.
+
+    Mungkin saja melibatkan studi literatur.
+
+    \item Tambahkan fitur input parameter di \textit{frontend}, baik untuk menentukan prioritas di masalah optimasi, maupun untuk algoritma genetika.
+    
+    Tentunya, sambung kembali \textit{backend} terbaru ke \textit{frontend}.
+
+    Mungkin, buat juga tambahan agar user bisa memilih antara algoritma \textit{greedy} yang telah dibuat sebelumnya atau algoritma genetika.
+\end{enumerate}
+
+\textbf{Konsep pemrograman fungsional yang terlibat:} kembali melibatkan konsep dasar, terutama untuk implementasi algoritma genetika, yang aslinya bersifat iteratif. Juga mungkin saja melibatkan \textit{higher-order function}, karena algoritma genetika sebenarnya cukup \textit{general}, kita bisa mendefinisikan fungsi \textit{crossover} dsb khusus kasus ini di luar inti algoritma genetika itu sendiri. Mungkin melibatkan \textbf{Monad} untuk urusan \textit{random}. Mungkin juga melibatkan \textit{lazy evaluation}, karena dalam tahap \textit{selection} perlu dipilih sekian dari populasi yang sangat banyak (walaupun tidak tak hingga karena masalah ini masih diskret).
+
+\subsection*{Target Progress 4 (21 November 2024)}
+
+Menambahkan fitur/kendala baru: ketergantungan tugas atau urutan tugas \textit{(task precedence)}, yaitu bahwa bisa saja ada tugas yang harus dikerjakan terlebih dahulu sebelum tugas lain. \\[0.5em]
+Ini mempengaruhi perumusan masalah optimasi, sehingga mempengaruhi \textit{backend}, meliputi strutkur data (sekarang tugas bisa memiliki prasyarat) dan algoritma genetika (terutama untuk pendefinisian fungsi objektif yang baru). Juga mempengaruhi \textit{frontend}, untuk urusan input data dan tampilan.
+
+\begin{enumerate}
+    \item Memodifikasi struktur data tugas agar tiap tugas bisa memiliki prasyarat.
+    
+    Juga menambahkan fungsi-fungsi tambahan untuk ekstraksi data.
+    
+    Memodifikasi struktur data lainnya apabila diperlukan.
+
+    \item Membuat fungsi-fungsi tambahan yang memeriksa kendala terkait \textit{precedence}. Misalnya, fungsi yang memeriksa apakah penjadwalan tertentu memenuhi kendala \textit{precedence} tersebut.
+
+    \item Membuat struktur data graf, lebih tepatnya \textit{dependency graph}, untuk menyimpan hubungan ketergantungan antar tugas.
+    
+    Juga membuat fungsi yang memanfaatkan struktur data graf ini untuk memeriksa, dari segi ketergantungan tugas, apakah penjadwalan mungkin sama sekali, yaitu apakah graf tersebut merupakan DAG \textit{(directed acyclic graph)}. Fungsi ini kemudian perlu dilibatkan dalam pencarian solusi, sebelum menggunakan algoritma genetika.
+    
+    \item Memodifikasi perumusan masalah optimasi dengan menambahkan unsur \textit{precedence}, yaitu dengan menambahkan kendala. Parameter bisa saja bertambah.
+    
+    \item Memodifikasi \textit{fitness function} untuk penggunaan algoritma genetika agar juga mempertimbangkan \textit{precedence}.
+    
+    \item Menambahkan fitur input ketergantungan tugas di \textit{frontend}, dan melapor apabila pencarian solusi tidak mungkin (misalnya karena \textit{dependency graph} yang terbentuk tidak berupa DAG).
+\end{enumerate}
+
+\textbf{Konsep pemrograman fungsional yang terlibat:} kembali melibatkan konsep dasar, terutama seputar struktur data. Namun, kalau perlu, struktur data DAG bisa dicoba dijadikan \textit{instance} dari berbagai \textit{type class}, misalnya \textbf{Traversable} atau bahkan \textbf{Applicative Functor}.
+
+\subsection*{Target Progress 5 (28 November 2024)}
+
+Menambahkan \textit{error handling} dan/atau \textit{form validation}, juga fitur \textit{save} dan \textit{load} data.
+
+\begin{enumerate}
+    \item Mulai menerapkan \textit{error handling} dan/atau \textit{form validation}, misalnya dengan memanfaatkan tipe \textbf{Maybe}.
+    
+    Ini bisa saja melibatkan modifikasi urusan tipe di keseluruhan kode, atau bisa juga di fungsi-fungsi tertentu saja, terutama yang dekat dengan \textit{frontend}.
+
+    \item Selain itu, juga membuat fitur \textit{save} dan \textit{load} data, baik data tugas maupun data hasil penjadwalan.
+    
+    \item Kalau sempat, tambahkan fitur di \textit{frontend} untuk juga menampilkan \textit{dependency graph}. Visualisasi seperti itu bisa membantu pengguna.
+        
+    Mungkin saja harus selektif atau setidaknya diatur kembali, bagian apa saja dari tiap tugas yang bisa ditampilkan, agar mudah dibaca dan tidak begitu memakan tempat.
+\end{enumerate}
+
+\textbf{Konsep pemrograman fungsional yang terlibat:} seputar tipe \textbf{Maybe}, sehingga bisa saja sampai melibatkan konsep \textbf{Applicative Functor}. Juga memerlukan \textbf{Monad} yang berkaitan dengan \textit{save} dan \textit{load} data, kemungkinan \textbf{IO Monad}.
+
+\subsection*{Target Progress 6 (5 Desember 2024)}
+
+\textit{Finishing up}, baik dari segi \textit{backend} (mempercepat algoritma genetika) maupun \textit{frontend}, dan mulai eksplor \textit{deployment}.
+
+\begin{enumerate}
+    \item Mulai mempelajari dan melakukan eksplorasi seputar \textit{deployment}, dan mencoba men-\textit{deploy} keseluruhan aplikasi sedemikian sehingga bisa digunakan oleh orang lain melalui suatu \textit{website}.
+    
+    Sebelumnya, \textit{website} tersebut perlu dipilih, untuk urusan \textit{hosting}.
+
+    \item Menulis panduan atau README untuk proyek, melibatkan cara \textit{running}, cara menggunakan, bahkan cara \textit{deploy} sendiri.
+    
+    \item Mencoba mengimplementasikan paralelisasi \textit{(parallelism)} di algoritma genetika. Di tiap iterasi, banyak anggota populasi perlu melalui tahapan \textit{crossover} dan \textit{mutation}; pengerjaan kedua tahap tersebut bisa saja dibagi-bagi ke sejumlah \textit{core}. Setelah selesai, hasilnya disatukan kembali ke dalam satu \textit{list} (atau semacamnya), barulah bisa melalui tahap \textit{selection} untuk melanjutkan ke iterasi selanjutnya.
+    
+    Mungkin juga mencoba melakukan \textit{fine-tuning}, yaitu mencoba mencari parameter yang cukup optimal untuk algoritma genetika.
+
+    Mungkin saja melibatkan studi literatur, terutama untuk pemilihan parameter.
+    
+    \item Mempelajari dan eksplorasi tentang FaaS \textit{(function as a service)}, mencoba melakukan penyesuaian pada kode \textit{backend} hingga bisa di-\textit{deploy} ke FaaS.
+\end{enumerate}
+
+\textbf{Konsep pemrograman fungsional yang terlibat:} melibatkan \textbf{Monad}, misalnya untuk mencoba paralelisasi, bisa juga urusan \textit{deployment}. Tentunya melibatkan juga konsep FaaS.
+
+\end{document}
