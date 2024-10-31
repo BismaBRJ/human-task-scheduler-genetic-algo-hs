@@ -345,6 +345,6 @@ main = do
     print "Test sukses:"
     print (getStFromMaybeSt test1Sukses31Okt2024)
     print "Test gagal:"
-    print test2Gagal31Okt2024
+    print (getStFromMaybeSt test2Gagal31Okt2024)
     print "Test sukses:"
-    print test3Sukses31Okt2024
+    print (getStFromMaybeSt test3Sukses31Okt2024)
