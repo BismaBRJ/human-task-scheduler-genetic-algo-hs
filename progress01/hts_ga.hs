@@ -288,8 +288,8 @@ main = do
     print sts
 -}
 
-test31Okt2024 :: Maybe [ScheduledTask]
-test31Okt2024 = scheduleTasks cal kls hts
+test1Sukses31Okt2024 :: Maybe [ScheduledTask]
+test1Sukses31Okt2024 = scheduleTasks cal kls hts
     where
         cal = getDayHourInterval (1,8) (4,11)
             ++ getDayHourInterval (1,13) (4,17)
@@ -307,6 +307,35 @@ test31Okt2024 = scheduleTasks cal kls hts
                ("tugas 5", (5,13), 4)
               ]
 
+test2Gagal31Okt2024 :: Maybe [ScheduledTask]
+test2Gagal31Okt2024 = scheduleTasks cal kls hts
+    where
+        cal = getDayHourInterval (1,8) (2,17)
+        kls = getDayHourInterval (1,8) (1,11)
+            ++ getDayHourInterval (1,13) (1,16)
+            ++ getDayHourInterval (2,8) (2,11)
+            ++ getDayHourInterval (2,13) (2,16)
+        hts = [("tugas 1", (1,23), 3),
+               ("tugas 2", (2,8), 5)
+               ]
+
+test3Sukses31Okt2024 :: Maybe [ScheduledTask]
+test3Sukses31Okt2024 = scheduleTasks cal kls hts
+    where
+        cal = getDayHourInterval (1,8) (2,23)
+        kls = getDayHourInterval (1,8) (1,11)
+            ++ getDayHourInterval (1,13) (1,16)
+            ++ getDayHourInterval (2,8) (2,11)
+            ++ getDayHourInterval (2,13) (2,16)
+        hts = [("tugas 1", (1,23), 3),
+               ("tugas 2", (2,8), 5)
+               ]
+
 main :: IO()
 main = do
-    print (getStFromMaybeSt test31Okt2024)
+    print "Test sukses:"
+    print (getStFromMaybeSt test1Sukses31Okt2024)
+    print "Test gagal:"
+    print test2Gagal31Okt2024
+    print "Test sukses:"
+    print test3Sukses31Okt2024
