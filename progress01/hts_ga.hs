@@ -134,6 +134,23 @@ main = do
     print (map myFInv [1..10])
 -}
 
+testF30Okt2024 :: [Maybe DayHourNum]
+testF30Okt2024 = map myF wc
+    where
+        wc = [(1,1),(1,2),(1,3),(2,1),(2,2),(2,3)]
+        -- sama saja: wc = getDayHourInterval (1,1) (2,3)
+        fh = [(1,2),(1,3)]
+        myMaps = getDayHourToFromNum wc fh
+        myF = fst myMaps
+
+testFInv30Okt2024 :: [Maybe DayHour]
+testFInv30Okt2024 = map myFInv [1..10]
+    where
+        wc = getDayHourInterval (1,1) (2,3)
+        fh = [(1,2),(1,3)]
+        myMaps = getDayHourToFromNum wc fh
+        myFInv = snd myMaps
+
 -- === PART 4: STRUKTUR DATA TUGAS ===
 
 ---- AP: After Present
@@ -245,6 +262,10 @@ scheduleTasks wcInput fhInput htsInput
                 | otherwise
                     = Nothing
 
+getStFromMaybeSt :: Maybe [ScheduledTask] -> [ScheduledTask]
+getStFromMaybeSt (Just x)   = x
+getStFromMaybeSt Nothing    = []
+
 {-
 main :: IO()
 main = do
@@ -267,22 +288,25 @@ main = do
     print sts
 -}
 
-main :: IO()
-main = do
-    let cal = getDayHourInterval (1,8) (4,11)
-            ++ getDayHourInterval (5,8) (5,10)
+test31Okt2024 :: Maybe [ScheduledTask]
+test31Okt2024 = scheduleTasks cal kls hts
+    where
+        cal = getDayHourInterval (1,8) (4,11)
             ++ getDayHourInterval (1,13) (4,17)
+            ++ getDayHourInterval (5,8) (5,10)
             ++ getDayHourInterval (5,14) (5,17)
-    let kls = getDayHourInterval (2,8) (2,10)
+        kls = getDayHourInterval (2,8) (2,10)
             ++ getDayHourInterval (2,13) (2,15)
             ++ getDayHourInterval (3,10) (3,12)
             ++ getDayHourInterval (5,8) (5,10)
             ++ getDayHourInterval (5,13) (5,15)
-    let hts = [("tugas 1", (1,23), 3),
+        hts = [("tugas 1", (1,23), 3),
                ("tugas 2", (2,8), 5),
                ("tugas 3", (2,18), 2),
                ("tugas 4", (5,8), 3),
                ("tugas 5", (5,13), 4)
               ]
-    let sts = scheduleTasks cal kls hts
-    print sts
+
+main :: IO()
+main = do
+    print (getStFromMaybeSt test31Okt2024)
