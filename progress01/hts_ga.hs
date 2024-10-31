@@ -172,6 +172,7 @@ type DeadlineNum = DayHourNum
 type Duration = Int
 type HumanTask = (TaskName, Deadline, Duration)
 
+{-
 getHtTn :: HumanTask -> TaskName
 getHtTn (tn,dl,dur) = tn
 
@@ -180,6 +181,14 @@ getHtDl (tn,dl,dur) = dl
 
 getHtDur :: HumanTask -> Duration
 getHtDur (tn,dl,dur) = dur
+-}
+
+fstTriplet :: (a,b,c) -> a
+fstTriplet (x,y,z) = x
+sndTriplet :: (a,b,c) -> b
+sndTriplet (x,y,z) = y
+trdTriplet :: (a, b, c) -> c
+trdTriplet (x,y,z) = z
 
 --type HumanTaskNum = (TaskName, DeadlineNum, Duration)
 {-
@@ -207,7 +216,7 @@ type ScheduledTaskNum = (HumanTask, DayHourNum)
 
 expandTaskList :: [HumanTask] -> [ExpandedTask]
 expandTaskList hts
-    = concat [replicate (getHtDur ht) (Expanded ht) | ht <- hts]
+    = concat [replicate (trdTriplet ht) (Expanded ht) | ht <- hts]
 
 getDeadlineViolations :: [ScheduledTask] -> [ScheduledTask]
 getDeadlineViolations stsInput = reverse backwardsResult
@@ -215,7 +224,7 @@ getDeadlineViolations stsInput = reverse backwardsResult
         backwardsSts = (nub . reverse) stsInput
         backwardsResult
             = [ st | st <- backwardsSts,
-                getHtDl (fst st) < snd st ]
+                sndTriplet (fst st) < snd st ]
 
 dhJustOrZero :: Maybe DayHour -> DayHour
 dhJustOrZero (Just x)   = x
@@ -228,10 +237,10 @@ getDeadlineViolationsMaybe stsInput = reverse backwardsResult
         backwardsSts = (nub . reverse) stsInput
         backwardsResult
             = [ st | st <- backwardsSts,
-                getHtDl (fst st) < dhJustOrZero (snd st) ]
+                sndTriplet (fst st) < dhJustOrZero (snd st) ]
 
-checkDeadlineOrder :: [(HumanTask, Maybe DayHour)] -> Bool
-checkDeadlineOrder = null . getDeadlineViolationsMaybe
+checkDeadlineOrder :: [(HumanTask, DayHour)] -> Bool
+checkDeadlineOrder = null . getDeadlineViolations
 
 checkDeadlineOrderMaybe :: [(HumanTask, Maybe DayHour)] -> Bool
 checkDeadlineOrderMaybe = null . getDeadlineViolationsMaybe
