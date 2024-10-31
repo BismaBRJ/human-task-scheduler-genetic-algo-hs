@@ -277,7 +277,11 @@ getStFromMaybeSt Nothing    = []
 
 -- fungsi tambahan
 
-getDeadlinesDhn :: WorkCalendar -> FullHours -> [HumanTask] -> [Maybe DeadlineNum]
+getDeadlinesDh :: [HumanTask] -> [Deadline]
+getDeadlinesDh hts = [sndTriplet ht | ht <- hts]
+
+getDeadlinesDhn :: WorkCalendar -> FullHours -> [HumanTask]
+    -> [Maybe DeadlineNum]
 getDeadlinesDhn wcInput fhInput htsInput = result
     where
         wc = (nub . sort) wcInput
@@ -287,6 +291,10 @@ getDeadlinesDhn wcInput fhInput htsInput = result
         dhFN = snd dhTFN
         hts = sortTasks htsInput
         result = [(dhTN . sndTriplet) x | x <- hts]
+
+--getDeadlinesDhnRound :: WorkCalendar -> FullHours -> [HumanTask]
+--    -> [DeadlineNum]
+
 
 -- testing
 
