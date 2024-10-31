@@ -275,6 +275,21 @@ getStFromMaybeSt :: Maybe [ScheduledTask] -> [ScheduledTask]
 getStFromMaybeSt (Just x)   = x
 getStFromMaybeSt Nothing    = []
 
+-- fungsi tambahan
+
+getDeadlinesDhn :: WorkCalendar -> FullHours -> [HumanTask] -> [Maybe DeadlineNum]
+getDeadlinesDhn wcInput fhInput htsInput = result
+    where
+        wc = (nub . sort) wcInput
+        fh = (nub . sort) fhInput
+        dhTFN = getDayHourToFromNum wc fh
+        dhTN = fst dhTFN
+        dhFN = snd dhTFN
+        hts = sortTasks htsInput
+        result = [(dhTN . sndTriplet) x | x <- hts]
+
+-- testing
+
 {-
 main :: IO()
 main = do
