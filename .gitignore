@@ -1,24 +1,32 @@
-## some directories
+## for GHCJS (Reflex Platform)
+
+### temporary compile files (?)
+*.js_hi
+*.js_o
+
+## for LaTeX
+
+### some directories
 *.pdf
 
-## some core latex/pdflatex auxiliary files
+### some core latex/pdflatex auxiliary files
 *.aux
 *.fls
 *.log
 *.out
 *.toc
 
-## some build tool auxiliary files
+### some build tool auxiliary files
 *.fdb_latexmk
 *.synctex
 *.synctex(busy)
 *.synctex.gz
 *.synctex.gz(busy)
 
-## some beamer auxiliary files
+### some beamer auxiliary files
 *.nav
 *.snm
 
-# more at
-# https://github.com/github/gitignore
-# specifically: https://github.com/github/gitignore/blob/main/TeX.gitignore
+### more at
+### https://github.com/github/gitignore
+### specifically: https://github.com/github/gitignore/blob/main/TeX.gitignore
