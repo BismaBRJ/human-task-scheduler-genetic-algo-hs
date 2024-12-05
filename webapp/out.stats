@@ -1,0 +1,2395 @@
+code size summary per package:
+
+OneTuple-0.3.1-9yc7NpDLN6yCYVDvESb574:3
+QuickCheck-2.14.2-8XsChlZKZBFKZLhxKTpDH6:16
+StateVar-1.2.2-LjUKVoi91WFIC0vllXEYkI:1
+adjunctions-4.4.2-6mwmqWNjO63Lcueg0Xfr2N:11
+aeson-2.1.1.0-LaIC4KpiyfL2LXaIsqEB8b:28
+array-0.5.4.0-BY9BworFlmHJapi9znoqNH:15
+assoc-1.0.2-9r5CYDItYfw2716RlsM2q0:2
+attoparsec-0.14.4-B2iQnzVBBFTKhcVPsQN0rt-attoparsec-internal:6
+attoparsec-0.14.4-I8c7AMvf6rV5ZJN2QPl657:16
+base:                    2304047
+base-compat-0.11.2-JQpKDsVhHsCHPlgorbNGMx:118
+base-compat-batteries-0.11.2-Ga31QQ7sOlIgAVr2fMCMg:118
+base-orphans-0.8.7-68gGt71vpOZ5uwbcNbxwhZ:2
+bifunctors-5.5.12-DkW4sW0fg2JABFk0cRCAHw:16
+bimap-0.4.0-HQ8bW7eOER75mGuHQdK4VZ:1
+binary-0.8.8.0-8geveWiewY98oMa1Q4NvzB:9
+blaze-builder-0.4.2.2-7JLcR4JQIo2IS4OD967axe:11
+bytestring-0.10.12.0-A1EizoKtfkUxRIgN0VmIs:23
+call-stack-0.4.0-F2G8VFlONYOm6t7yQ4QAt:3
+case-insensitive-1.2.1.0-4bOJ41Nw5pgFeQII11BzXo:3
+commutative-semigroups-0.1.0.0-15cVSMjm1335X6EqonoWxP:2
+comonad-5.0.8-4bR0N05aD1W78uCVafNrxo:15
+constraints-0.13.4-L4x3NqELgxjEmJWsW0BU9p:7
+constraints-extras-0.4.0.0-ErVwJl3Znr8nmWYMW9Q9I:4
+containers-0.6.5.1-Jb3F8jbyqRBHMHVa9Whe7M:1733675
+contravariant-1.5.5-IVbEhEdynkx9xEz0KDBL8h:3
+data-default-0.7.1.1-Dulmwp0aYfG41uRo6EdCK3:1
+data-default-class-0.1.2.0-E30fqgskg4lDLFEoUyV3eL:1
+data-default-instances-containers-0.0.1-7TQjGS05LmdIpRVT6e4aCl:1
+data-default-instances-dlist-0.0.1-ivkgNS8Bh4H4GNyYEKLg7:1
+data-default-instances-old-locale-0.0.1-9D7fX28iyCL8oCv6R6PCja:1
+data-fix-0.3.2-BrHxIBwkqYS6qm6kEPINfK:1
+deepseq-1.4.4.0-1l24lJnqQnGEBnHHreMAq3:631008
+dependent-map-0.4.0.0-HDMOjN2Sng38A4DxUFM4Fi:586976
+dependent-sum-0.7.2.0-eb17N54HIJbzGBjpqSK6:1
+dependent-sum-template-0.1.2.0-5pfr9XWHJeUIorOTCEbeSg:4
+distributive-0.6.2.1-E6FBRTHUz4xDeJS4jkKGRN:2
+dlist-1.0-7owEwRX6KdsXn0LOsbujO:5
+exception-transformers-0.4.0.11-Eb8msWLZ6uBC8TfDYr8s1I:1
+exceptions-0.10.5-BqyE5VZGB6MJU8pEcckH3M:2
+free-5.1.9-BT0DrMPCj7zEwehq6rjGJZ:20
+generically-0.1-35Te45UlhoWD8zU0TKv2Uc:1
+ghc-boot-th-8.10.7-FQtGTtjFMOPJdcMgIgVdDb:9076
+ghc-prim:                290932
+ghcjs-base-0.2.0.3-7FzwNCL6iT1GrlwZ9umVZf:5011
+ghcjs-dom-0.9.4.0-7D07xJnME4h8365CyighbD:4824
+ghcjs-dom-jsffi-0.9.4.0-47s8EUYI9ptHH2NrIQGHdX:451501
+ghcjs-prim-0.1.1.0-HZUIQ7BTQrzF5jVh07mbue:10227
+hashable-1.3.5.0-6OQ8AF7BxUIJC2uGeto9JD:7
+haskell-src-exts-1.23.1-E46XVXkipvK1QffaMAgCvA:18
+haskell-src-meta-0.8.10-IcbrfrN0Yc93XnYTMg7Yxl:6
+indexed-traversable-0.1.2-GD8npio83CSFiz04J1mXkd:5
+indexed-traversable-instances-0.1.1.1-LvEDkxbyZx8CeLTfKJ3EOq:1
+integer-logarithms-1.0.3.1-IYkBdh7wKb2CHfnUySx2jj:4
+integer-wired-in:        116417
+jsaddle-0.9.8.2-DOc5JA9qWKc32sVbaacOyT:16
+kan-extensions-5.2.5-EC5Ak81elAI9Q64zbtgbBz:13
+keycode-0.2.2-Czn6b09jBhsByMfkX7XMG7:1
+lens-5.0.1-GeIFvbyz2Cy6eIMcGBgWDo:11733
+main:                    93450
+mmorph-1.1.5-3eFwXVzVNnI3F3vNStNxQK:2
+monad-control-1.0.3.1-83RwHpHdTGiAyC7KwNvLPq:1
+monoidal-containers-0.6.3.0-6rLebHrDqTYAkaAYGmVPO2:5
+mtl-2.2.2-IGSoKUSGylEE6TI31vkuMe:22
+network-uri-2.6.4.1-EgPHBHjrSGRE0KOBxOehBu:3
+newtype-0.2.2.0-Ia8FPsiJkZDE8gE7xezXZ1:1
+old-locale-1.0.0.7-6DH3DZNjGWjGbG4IYFPAQu:1
+parsec-3.1.14.0-GuoXYxAYGGZK6VJd1NSY5K:48142
+patch-0.0.8.2-xkFqRtYG48CECJTIsI2Tf:273970
+pretty-1.1.3.6-GAhFbJ44WwF1NMuTt9nXuU:6
+prim-uniq-0.2-BgbNcnYVkS1LlVFtj6Kmrp:2802
+primitive-0.7.3.0-LReQyhejKi49H74D23JRkG:12
+profunctors-5.6.2-5SxRgU7SWKJLS9EgQ0NK1D:16
+random-1.2.1.1-GdOCmgKIL7EDQkfgpQqW9R:7683
+ref-tf-0.5.0.1-7guyMWOh5nf1ozHjvkTku5:1
+reflection-2.1.6-2geGEngscoyF11gJEzOGky:7717
+reflex-0.9.2.0-H5N7cDK9stQEp1UcDEHTtO:8327376
+reflex-dom-0.6.3.1-CFudMpsRYLQ1FGN5ho4SWm:557
+reflex-dom-core-0.8.0.0-BVBpLyoKjcc3VoNa9MZmjI:11716304
+scientific-0.3.7.0-5mgRNvjYRWv3mPytIhdHjG:5
+semialign-1.2.0.1-3lRV8p74IjdCPCrrCZHX18:24341
+semigroupoids-5.3.7-ExpVh30JA1vHU0pUN1D1KP:27
+some-1.0.4-5SkKrRTQnH4GFDlQwONkme:28566
+splitmix-0.1.0.4-IKx5gy6hO9E2B3ZCQD9inF:4
+stm-2.5.1.0-9V1mDypaSip90lOBcvgOVT:10
+strict-0.4.0.1-CCCWae0XlFU2CCPFxv8TCX:7
+syb-0.7.2.1-JaBkmTMa5x9tmgIwgsd4G:16
+tagged-0.8.6.1-AEMMPBEbqKx4fRL5Pi5doc:2
+template-haskell:        9
+text-1.2.4.1-6uG5rVV50DlG3V1Irt2qJZ:23492
+text-short-0.1.5-83tql5UYbdMEs8roEduy7C:5
+th-abstraction-0.4.3.0-5KnBYXhO4rl9iydQrA0x5u:3
+these-1.1.1.1-BPrWGiow4Go4C9rwUD8EPD:1525
+time-1.9.3-3RdsewIylHjEX08tJ1SRQd:43
+time-compat-1.9.6.1-Ic9heUN7tt72jqMeiIVtiA:20
+transformers-0.5.6.2-FuVVxe7sxd9Djwd0OcZNKG:103712
+transformers-base-0.4.6-5vzvUNQkjWl5rKYpKtEujR:1
+transformers-compat-0.6.6-JIDysxDx5RHGzGmif9zRu:4
+type-equality-1-MnU7ikubviHyq0hfOcnDO:1
+unbounded-delays-0.1.1.1-BwsGS8LWyIuJ326RAKjQ5K:2
+unordered-containers-0.2.17.0-AFrF27z0nr9EWVUGMShZGS:8
+uuid-types-1.0.5-3IW8DmCgl8oIpz1iDmHBqE:3
+vector-0.12.3.1-Jn822ltAQMG9EAuGGatnyM:21
+witherable-0.4.2-7IW33CuC4SlBCxRU6x2Mh6:2
+zenc-0.1.2-7YgksDoZczjIPnTbRXIQpd:217866
+
+
+code size per module:
+
+OneTuple-0.3.1-9yc7NpDLN6yCYVDvESb574
+    Data.Tuple.OneTuple:                1
+    Data.Tuple.Solo:                    1
+    Data.Tuple.Solo.TH:                 1
+
+QuickCheck-2.14.2-8XsChlZKZBFKZLhxKTpDH6
+    Test.QuickCheck:                    1
+    Test.QuickCheck.All:                1
+    Test.QuickCheck.Arbitrary:          1
+    Test.QuickCheck.Exception:          1
+    Test.QuickCheck.Features:           1
+    Test.QuickCheck.Function:           1
+    Test.QuickCheck.Gen:                1
+    Test.QuickCheck.Gen.Unsafe:         1
+    Test.QuickCheck.Modifiers:          1
+    Test.QuickCheck.Monadic:            1
+    Test.QuickCheck.Poly:               1
+    Test.QuickCheck.Property:           1
+    Test.QuickCheck.Random:             1
+    Test.QuickCheck.State:              1
+    Test.QuickCheck.Test:               1
+    Test.QuickCheck.Text:               1
+
+StateVar-1.2.2-LjUKVoi91WFIC0vllXEYkI
+    Data.StateVar:                      1
+
+adjunctions-4.4.2-6mwmqWNjO63Lcueg0Xfr2N
+    Control.Comonad.Representable.Store:1
+    Control.Comonad.Trans.Adjoint:      1
+    Control.Monad.Representable.Reader: 1
+    Control.Monad.Representable.State:  1
+    Control.Monad.Trans.Adjoint:        1
+    Control.Monad.Trans.Contravariant.Adjoint:1
+    Control.Monad.Trans.Conts:          1
+    Data.Functor.Adjunction:            1
+    Data.Functor.Contravariant.Adjunction:1
+    Data.Functor.Contravariant.Rep:     1
+    Data.Functor.Rep:                   1
+
+aeson-2.1.1.0-LaIC4KpiyfL2LXaIsqEB8b
+    Data.Aeson:                         1
+    Data.Aeson.Encoding:                1
+    Data.Aeson.Encoding.Builder:        1
+    Data.Aeson.Encoding.Internal:       1
+    Data.Aeson.Internal:                1
+    Data.Aeson.Internal.ByteString:     1
+    Data.Aeson.Internal.Functions:      1
+    Data.Aeson.Internal.TH:             1
+    Data.Aeson.Internal.Text:           1
+    Data.Aeson.Internal.Time:           1
+    Data.Aeson.Key:                     1
+    Data.Aeson.KeyMap:                  1
+    Data.Aeson.Parser:                  1
+    Data.Aeson.Parser.Internal:         1
+    Data.Aeson.Parser.Time:             1
+    Data.Aeson.Parser.Unescape:         1
+    Data.Aeson.Parser.UnescapePure:     1
+    Data.Aeson.QQ.Simple:               1
+    Data.Aeson.TH:                      1
+    Data.Aeson.Text:                    1
+    Data.Aeson.Types:                   1
+    Data.Aeson.Types.Class:             1
+    Data.Aeson.Types.FromJSON:          1
+    Data.Aeson.Types.Generic:           1
+    Data.Aeson.Types.Internal:          1
+    Data.Aeson.Types.ToJSON:            1
+    Data.Attoparsec.Time:               1
+    Data.Attoparsec.Time.Internal:      1
+
+array-0.5.4.0-BY9BworFlmHJapi9znoqNH
+    Data.Array:                         1
+    Data.Array.Base:                    1
+    Data.Array.IArray:                  1
+    Data.Array.IO:                      1
+    Data.Array.IO.Internals:            1
+    Data.Array.IO.Safe:                 1
+    Data.Array.MArray:                  1
+    Data.Array.MArray.Safe:             1
+    Data.Array.ST:                      1
+    Data.Array.ST.Safe:                 1
+    Data.Array.Storable:                1
+    Data.Array.Storable.Internals:      1
+    Data.Array.Storable.Safe:           1
+    Data.Array.Unboxed:                 1
+    Data.Array.Unsafe:                  1
+
+assoc-1.0.2-9r5CYDItYfw2716RlsM2q0
+    Data.Bifunctor.Assoc:               1
+    Data.Bifunctor.Swap:                1
+
+attoparsec-0.14.4-B2iQnzVBBFTKhcVPsQN0rt-attoparsec-internal
+    Data.Attoparsec.ByteString.Buffer:  1
+    Data.Attoparsec.ByteString.FastSet: 1
+    Data.Attoparsec.Internal.Compat:    1
+    Data.Attoparsec.Internal.Fhthagn:   1
+    Data.Attoparsec.Text.Buffer:        1
+    Data.Attoparsec.Text.FastSet:       1
+
+attoparsec-0.14.4-I8c7AMvf6rV5ZJN2QPl657
+    Data.Attoparsec:                    1
+    Data.Attoparsec.ByteString:         1
+    Data.Attoparsec.ByteString.Char8:   1
+    Data.Attoparsec.ByteString.Internal:1
+    Data.Attoparsec.ByteString.Lazy:    1
+    Data.Attoparsec.Char8:              1
+    Data.Attoparsec.Combinator:         1
+    Data.Attoparsec.Internal:           1
+    Data.Attoparsec.Internal.Types:     1
+    Data.Attoparsec.Lazy:               1
+    Data.Attoparsec.Number:             1
+    Data.Attoparsec.Text:               1
+    Data.Attoparsec.Text.Internal:      1
+    Data.Attoparsec.Text.Lazy:          1
+    Data.Attoparsec.Types:              1
+    Data.Attoparsec.Zepto:              1
+
+base
+    Control.Applicative:                1
+    Control.Arrow:                      1
+    Control.Category:                   1422
+    Control.Concurrent:                 22031
+    Control.Concurrent.Chan:            1
+    Control.Concurrent.MVar:            1
+    Control.Concurrent.QSem:            1
+    Control.Concurrent.QSemN:           1
+    Control.Exception:                  18721
+    Control.Exception.Base:             1
+    Control.Monad:                      1
+    Control.Monad.Fail:                 1597
+    Control.Monad.Fix:                  1745
+    Control.Monad.IO.Class:             1
+    Control.Monad.Instances:            1
+    Control.Monad.ST:                   1
+    Control.Monad.ST.Imp:               1
+    Control.Monad.ST.Lazy:              1
+    Control.Monad.ST.Lazy.Imp:          1
+    Control.Monad.ST.Lazy.Safe:         1
+    Control.Monad.ST.Lazy.Unsafe:       1
+    Control.Monad.ST.Safe:              1
+    Control.Monad.ST.Strict:            1
+    Control.Monad.ST.Unsafe:            1
+    Control.Monad.Zip:                  1
+    Data.Bifoldable:                    1
+    Data.Bifunctor:                     1
+    Data.Bitraversable:                 1
+    Data.Bits:                          1
+    Data.Bool:                          1
+    Data.Char:                          1
+    Data.Coerce:                        1
+    Data.Complex:                       1
+    Data.Data:                          1
+    Data.Dynamic:                       541
+    Data.Either:                        1
+    Data.Eq:                            1
+    Data.Fixed:                         25323
+    Data.Foldable:                      1
+    Data.Function:                      284
+    Data.Functor:                       1
+    Data.Functor.Classes:               1
+    Data.Functor.Compose:               1
+    Data.Functor.Const:                 1
+    Data.Functor.Contravariant:         531
+    Data.Functor.Identity:              434
+    Data.Functor.Product:               1
+    Data.Functor.Sum:                   1
+    Data.Functor.Utils:                 1
+    Data.IORef:                         1
+    Data.Int:                           1
+    Data.Ix:                            1
+    Data.Kind:                          1
+    Data.List:                          1
+    Data.List.NonEmpty:                 6702
+    Data.Maybe:                         1
+    Data.Monoid:                        36647
+    Data.OldList:                       1
+    Data.Ord:                           65
+    Data.Proxy:                         1
+    Data.Ratio:                         1
+    Data.STRef:                         1
+    Data.STRef.Lazy:                    1
+    Data.STRef.Strict:                  1
+    Data.Semigroup:                     27893
+    Data.Semigroup.Internal:            1
+    Data.String:                        1
+    Data.Traversable:                   1056
+    Data.Tuple:                         1
+    Data.Type.Bool:                     321
+    Data.Type.Coercion:                 275
+    Data.Type.Equality:                 1
+    Data.Typeable:                      361195
+    Data.Typeable.Internal:             1
+    Data.Unique:                        1
+    Data.Version:                       1
+    Data.Void:                          1
+    Data.Word:                          1
+    Debug.Trace:                        1
+    Foreign:                            1
+    Foreign.C:                          20169
+    Foreign.C.Error:                    1
+    Foreign.C.String:                   1
+    Foreign.C.Types:                    1
+    Foreign.Concurrent:                 1
+    Foreign.ForeignPtr:                 1
+    Foreign.ForeignPtr.Imp:             1
+    Foreign.ForeignPtr.Safe:            1
+    Foreign.ForeignPtr.Unsafe:          1
+    Foreign.Marshal:                    7149
+    Foreign.Marshal.Alloc:              1
+    Foreign.Marshal.Array:              1
+    Foreign.Marshal.Error:              1
+    Foreign.Marshal.Pool:               1
+    Foreign.Marshal.Safe:               1
+    Foreign.Marshal.Unsafe:             1
+    Foreign.Marshal.Utils:              1
+    Foreign.Ptr:                        1
+    Foreign.Safe:                       1
+    Foreign.StablePtr:                  14631
+    Foreign.Storable:                   3266
+    GHC.Arr:                            35722
+    GHC.Base:                           1
+    GHC.ByteOrder:                      1480
+    GHC.Char:                           1
+    GHC.Clock:                          1
+    GHC.Conc:                           1
+    GHC.Conc.IO:                        1
+    GHC.Conc.Signal:                    28332
+    GHC.Conc.Sync:                      1
+    GHC.ConsoleHandler:                 1
+    GHC.Constants:                      1
+    GHC.Desugar:                        39036
+    GHC.Enum:                           1
+    GHC.Environment:                    1178
+    GHC.Err:                            31249
+    GHC.Exception:                      15560
+    GHC.Exception.Type:                 1
+    GHC.ExecutionStack:                 1
+    GHC.ExecutionStack.Internal:        1
+    GHC.Exts:                           23330
+    GHC.Fingerprint:                    4201
+    GHC.Fingerprint.Type:               1
+    GHC.Float:                          1
+    GHC.Float.ConversionUtils:          1
+    GHC.Float.RealFracMethods:          51438
+    GHC.Foreign:                        3034
+    GHC.ForeignPtr:                     1
+    GHC.GHCi:                           1
+    GHC.GHCi.Helpers:                   1
+    GHC.Generics:                       10239
+    GHC.IO:                             5015
+    GHC.IO.Buffer:                      3913
+    GHC.IO.BufferedIO:                  6702
+    GHC.IO.Device:                      3084
+    GHC.IO.Encoding:                    1
+    GHC.IO.Encoding.CodePage:           1892
+    GHC.IO.Encoding.Failure:            1
+    GHC.IO.Encoding.Iconv:              12389
+    GHC.IO.Encoding.Latin1:             2706
+    GHC.IO.Encoding.Types:              1
+    GHC.IO.Encoding.UTF16:              1
+    GHC.IO.Encoding.UTF32:              225910
+    GHC.IO.Encoding.UTF8:               74123
+    GHC.IO.Exception:                   110600
+    GHC.IO.FD:                          1208
+    GHC.IO.Handle:                      26902
+    GHC.IO.Handle.FD:                   172935
+    GHC.IO.Handle.Internals:            1
+    GHC.IO.Handle.Lock:                 1
+    GHC.IO.Handle.Lock.Common:          1
+    GHC.IO.Handle.Lock.Flock:           1
+    GHC.IO.Handle.Lock.LinuxOFD:        1
+    GHC.IO.Handle.Lock.NoOp:            1
+    GHC.IO.Handle.Lock.Windows:         80728
+    GHC.IO.Handle.Text:                 15286
+    GHC.IO.Handle.Types:                1
+    GHC.IO.IOMode:                      987
+    GHC.IO.Unsafe:                      1
+    GHC.IOArray:                        1
+    GHC.IORef:                          2702
+    GHC.Int:                            5896
+    GHC.Ix:                             48664
+    GHC.List:                           254
+    GHC.MVar:                           5688
+    GHC.Maybe:                          1
+    GHC.Natural:                        3099
+    GHC.Num:                            1
+    GHC.OldList:                        1
+    GHC.OverloadedLabels:               1
+    GHC.Pack:                           1
+    GHC.Profiling:                      339
+    GHC.Ptr:                            1
+    GHC.RTS.Flags:                      86190
+    GHC.Read:                           8254
+    GHC.Real:                           1
+    GHC.Records:                        1
+    GHC.ResponseFile:                   1
+    GHC.ST:                             262
+    GHC.STRef:                          96483
+    GHC.Show:                           1
+    GHC.Stable:                         1
+    GHC.StableName:                     1
+    GHC.Stack:                          17029
+    GHC.Stack.CCS:                      3404
+    GHC.Stack.Types:                    1
+    GHC.StaticPtr:                      1
+    GHC.StaticPtr.Internal:             1
+    GHC.Stats:                          1
+    GHC.Storable:                       47648
+    GHC.TopHandler:                     1
+    GHC.TypeLits:                       1
+    GHC.TypeNats:                       5091
+    GHC.Unicode:                        254
+    GHC.Weak:                           4807
+    GHC.Word:                           1
+    Numeric:                            1
+    Numeric.Natural:                    1
+    Prelude:                            1
+    System.CPUTime:                     1
+    System.CPUTime.Unsupported:         1
+    System.CPUTime.Utils:               1
+    System.Console.GetOpt:              1
+    System.Environment:                 1
+    System.Environment.Blank:           1
+    System.Environment.ExecutablePath:  1
+    System.Exit:                        4445
+    System.IO:                          1
+    System.IO.Error:                    1
+    System.IO.Unsafe:                   1
+    System.Info:                        1
+    System.Mem:                         1
+    System.Mem.StableName:              1
+    System.Mem.Weak:                    75502
+    System.Posix.Internals:             1
+    System.Posix.Types:                 1
+    System.Timeout:                     91256
+    Text.ParserCombinators.ReadP:       315
+    Text.ParserCombinators.ReadPrec:    1
+    Text.Printf:                        7570
+    Text.Read:                          229020
+    Text.Read.Lex:                      1
+    Text.Show:                          1
+    Text.Show.Functions:                1
+    Type.Reflection:                    1
+    Type.Reflection.Unsafe:             201
+    Unsafe.Coerce:                      18345
+
+base-compat-0.11.2-JQpKDsVhHsCHPlgorbNGMx
+    Control.Concurrent.Compat:          1
+    Control.Concurrent.Compat.Repl:     1
+    Control.Concurrent.MVar.Compat:     1
+    Control.Concurrent.MVar.Compat.Repl:1
+    Control.Exception.Compat:           1
+    Control.Exception.Compat.Repl:      1
+    Control.Monad.Compat:               1
+    Control.Monad.Compat.Repl:          1
+    Control.Monad.Fail.Compat:          1
+    Control.Monad.Fail.Compat.Repl:     1
+    Control.Monad.IO.Class.Compat:      1
+    Control.Monad.IO.Class.Compat.Repl: 1
+    Control.Monad.ST.Lazy.Unsafe.Compat:1
+    Control.Monad.ST.Lazy.Unsafe.Compat.Repl:1
+    Control.Monad.ST.Unsafe.Compat:     1
+    Control.Monad.ST.Unsafe.Compat.Repl:1
+    Data.Bifoldable.Compat:             1
+    Data.Bifoldable.Compat.Repl:        1
+    Data.Bifunctor.Compat:              1
+    Data.Bifunctor.Compat.Repl:         1
+    Data.Bitraversable.Compat:          1
+    Data.Bitraversable.Compat.Repl:     1
+    Data.Bits.Compat:                   1
+    Data.Bits.Compat.Repl:              1
+    Data.Bool.Compat:                   1
+    Data.Bool.Compat.Repl:              1
+    Data.Complex.Compat:                1
+    Data.Complex.Compat.Repl:           1
+    Data.Either.Compat:                 1
+    Data.Either.Compat.Repl:            1
+    Data.Foldable.Compat:               1
+    Data.Foldable.Compat.Repl:          1
+    Data.Function.Compat:               1
+    Data.Function.Compat.Repl:          1
+    Data.Functor.Compat:                1
+    Data.Functor.Compat.Repl:           1
+    Data.Functor.Compose.Compat:        1
+    Data.Functor.Compose.Compat.Repl:   1
+    Data.Functor.Const.Compat:          1
+    Data.Functor.Const.Compat.Repl:     1
+    Data.Functor.Contravariant.Compat:  1
+    Data.Functor.Contravariant.Compat.Repl:1
+    Data.Functor.Identity.Compat:       1
+    Data.Functor.Identity.Compat.Repl:  1
+    Data.Functor.Product.Compat:        1
+    Data.Functor.Product.Compat.Repl:   1
+    Data.Functor.Sum.Compat:            1
+    Data.Functor.Sum.Compat.Repl:       1
+    Data.IORef.Compat:                  1
+    Data.IORef.Compat.Repl:             1
+    Data.List.Compat:                   1
+    Data.List.Compat.Repl:              1
+    Data.List.NonEmpty.Compat:          1
+    Data.List.NonEmpty.Compat.Repl:     1
+    Data.Monoid.Compat:                 1
+    Data.Monoid.Compat.Repl:            1
+    Data.Proxy.Compat:                  1
+    Data.Proxy.Compat.Repl:             1
+    Data.Ratio.Compat:                  1
+    Data.Ratio.Compat.Repl:             1
+    Data.STRef.Compat:                  1
+    Data.STRef.Compat.Repl:             1
+    Data.Semigroup.Compat:              1
+    Data.Semigroup.Compat.Repl:         1
+    Data.String.Compat:                 1
+    Data.String.Compat.Repl:            1
+    Data.Type.Coercion.Compat:          1
+    Data.Type.Coercion.Compat.Repl:     1
+    Data.Type.Equality.Compat:          1
+    Data.Type.Equality.Compat.Repl:     1
+    Data.Version.Compat:                1
+    Data.Version.Compat.Repl:           1
+    Data.Void.Compat:                   1
+    Data.Void.Compat.Repl:              1
+    Data.Word.Compat:                   1
+    Data.Word.Compat.Repl:              1
+    Debug.Trace.Compat:                 1
+    Debug.Trace.Compat.Repl:            1
+    Foreign.Compat:                     1
+    Foreign.Compat.Repl:                1
+    Foreign.ForeignPtr.Compat:          1
+    Foreign.ForeignPtr.Compat.Repl:     1
+    Foreign.ForeignPtr.Safe.Compat:     1
+    Foreign.ForeignPtr.Safe.Compat.Repl:1
+    Foreign.ForeignPtr.Unsafe.Compat:   1
+    Foreign.ForeignPtr.Unsafe.Compat.Repl:1
+    Foreign.Marshal.Alloc.Compat:       1
+    Foreign.Marshal.Alloc.Compat.Repl:  1
+    Foreign.Marshal.Array.Compat:       1
+    Foreign.Marshal.Array.Compat.Repl:  1
+    Foreign.Marshal.Compat:             1
+    Foreign.Marshal.Compat.Repl:        1
+    Foreign.Marshal.Safe.Compat:        1
+    Foreign.Marshal.Safe.Compat.Repl:   1
+    Foreign.Marshal.Unsafe.Compat:      1
+    Foreign.Marshal.Unsafe.Compat.Repl: 1
+    Foreign.Marshal.Utils.Compat:       1
+    Foreign.Marshal.Utils.Compat.Repl:  1
+    Numeric.Compat:                     1
+    Numeric.Compat.Repl:                1
+    Numeric.Natural.Compat:             1
+    Numeric.Natural.Compat.Repl:        1
+    Prelude.Compat:                     1
+    Prelude.Compat.Repl:                1
+    System.Environment.Compat:          1
+    System.Environment.Compat.Repl:     1
+    System.Exit.Compat:                 1
+    System.Exit.Compat.Repl:            1
+    System.IO.Compat:                   1
+    System.IO.Compat.Repl:              1
+    System.IO.Error.Compat:             1
+    System.IO.Error.Compat.Repl:        1
+    System.IO.Unsafe.Compat:            1
+    System.IO.Unsafe.Compat.Repl:       1
+    Text.Read.Compat:                   1
+    Text.Read.Compat.Repl:              1
+    Type.Reflection.Compat:             1
+    Type.Reflection.Compat.Repl:        1
+
+base-compat-batteries-0.11.2-Ga31QQ7sOlIgAVr2fMCMg
+    Control.Concurrent.Compat:          1
+    Control.Concurrent.Compat.Repl.Batteries:1
+    Control.Concurrent.MVar.Compat:     1
+    Control.Concurrent.MVar.Compat.Repl.Batteries:1
+    Control.Exception.Compat:           1
+    Control.Exception.Compat.Repl.Batteries:1
+    Control.Monad.Compat:               1
+    Control.Monad.Compat.Repl.Batteries:1
+    Control.Monad.Fail.Compat:          1
+    Control.Monad.Fail.Compat.Repl.Batteries:1
+    Control.Monad.IO.Class.Compat:      1
+    Control.Monad.IO.Class.Compat.Repl.Batteries:1
+    Control.Monad.ST.Lazy.Unsafe.Compat:1
+    Control.Monad.ST.Lazy.Unsafe.Compat.Repl.Batteries:1
+    Control.Monad.ST.Unsafe.Compat:     1
+    Control.Monad.ST.Unsafe.Compat.Repl.Batteries:1
+    Data.Bifoldable.Compat:             1
+    Data.Bifoldable.Compat.Repl.Batteries:1
+    Data.Bifunctor.Compat:              1
+    Data.Bifunctor.Compat.Repl.Batteries:1
+    Data.Bitraversable.Compat:          1
+    Data.Bitraversable.Compat.Repl.Batteries:1
+    Data.Bits.Compat:                   1
+    Data.Bits.Compat.Repl.Batteries:    1
+    Data.Bool.Compat:                   1
+    Data.Bool.Compat.Repl.Batteries:    1
+    Data.Complex.Compat:                1
+    Data.Complex.Compat.Repl.Batteries: 1
+    Data.Either.Compat:                 1
+    Data.Either.Compat.Repl.Batteries:  1
+    Data.Foldable.Compat:               1
+    Data.Foldable.Compat.Repl.Batteries:1
+    Data.Function.Compat:               1
+    Data.Function.Compat.Repl.Batteries:1
+    Data.Functor.Compat:                1
+    Data.Functor.Compat.Repl.Batteries: 1
+    Data.Functor.Compose.Compat:        1
+    Data.Functor.Compose.Compat.Repl.Batteries:1
+    Data.Functor.Const.Compat:          1
+    Data.Functor.Const.Compat.Repl.Batteries:1
+    Data.Functor.Contravariant.Compat:  1
+    Data.Functor.Contravariant.Compat.Repl.Batteries:1
+    Data.Functor.Identity.Compat:       1
+    Data.Functor.Identity.Compat.Repl.Batteries:1
+    Data.Functor.Product.Compat:        1
+    Data.Functor.Product.Compat.Repl.Batteries:1
+    Data.Functor.Sum.Compat:            1
+    Data.Functor.Sum.Compat.Repl.Batteries:1
+    Data.IORef.Compat:                  1
+    Data.IORef.Compat.Repl.Batteries:   1
+    Data.List.Compat:                   1
+    Data.List.Compat.Repl.Batteries:    1
+    Data.List.NonEmpty.Compat:          1
+    Data.List.NonEmpty.Compat.Repl.Batteries:1
+    Data.Monoid.Compat:                 1
+    Data.Monoid.Compat.Repl.Batteries:  1
+    Data.Proxy.Compat:                  1
+    Data.Proxy.Compat.Repl.Batteries:   1
+    Data.Ratio.Compat:                  1
+    Data.Ratio.Compat.Repl.Batteries:   1
+    Data.STRef.Compat:                  1
+    Data.STRef.Compat.Repl.Batteries:   1
+    Data.Semigroup.Compat:              1
+    Data.Semigroup.Compat.Repl.Batteries:1
+    Data.String.Compat:                 1
+    Data.String.Compat.Repl.Batteries:  1
+    Data.Type.Coercion.Compat:          1
+    Data.Type.Coercion.Compat.Repl.Batteries:1
+    Data.Type.Equality.Compat:          1
+    Data.Type.Equality.Compat.Repl.Batteries:1
+    Data.Version.Compat:                1
+    Data.Version.Compat.Repl.Batteries: 1
+    Data.Void.Compat:                   1
+    Data.Void.Compat.Repl.Batteries:    1
+    Data.Word.Compat:                   1
+    Data.Word.Compat.Repl.Batteries:    1
+    Debug.Trace.Compat:                 1
+    Debug.Trace.Compat.Repl.Batteries:  1
+    Foreign.Compat:                     1
+    Foreign.Compat.Repl.Batteries:      1
+    Foreign.ForeignPtr.Compat:          1
+    Foreign.ForeignPtr.Compat.Repl.Batteries:1
+    Foreign.ForeignPtr.Safe.Compat:     1
+    Foreign.ForeignPtr.Safe.Compat.Repl.Batteries:1
+    Foreign.ForeignPtr.Unsafe.Compat:   1
+    Foreign.ForeignPtr.Unsafe.Compat.Repl.Batteries:1
+    Foreign.Marshal.Alloc.Compat:       1
+    Foreign.Marshal.Alloc.Compat.Repl.Batteries:1
+    Foreign.Marshal.Array.Compat:       1
+    Foreign.Marshal.Array.Compat.Repl.Batteries:1
+    Foreign.Marshal.Compat:             1
+    Foreign.Marshal.Compat.Repl.Batteries:1
+    Foreign.Marshal.Safe.Compat:        1
+    Foreign.Marshal.Safe.Compat.Repl.Batteries:1
+    Foreign.Marshal.Unsafe.Compat:      1
+    Foreign.Marshal.Unsafe.Compat.Repl.Batteries:1
+    Foreign.Marshal.Utils.Compat:       1
+    Foreign.Marshal.Utils.Compat.Repl.Batteries:1
+    Numeric.Compat:                     1
+    Numeric.Compat.Repl.Batteries:      1
+    Numeric.Natural.Compat:             1
+    Numeric.Natural.Compat.Repl.Batteries:1
+    Prelude.Compat:                     1
+    Prelude.Compat.Repl.Batteries:      1
+    System.Environment.Compat:          1
+    System.Environment.Compat.Repl.Batteries:1
+    System.Exit.Compat:                 1
+    System.Exit.Compat.Repl.Batteries:  1
+    System.IO.Compat:                   1
+    System.IO.Compat.Repl.Batteries:    1
+    System.IO.Error.Compat:             1
+    System.IO.Error.Compat.Repl.Batteries:1
+    System.IO.Unsafe.Compat:            1
+    System.IO.Unsafe.Compat.Repl.Batteries:1
+    Text.Read.Compat:                   1
+    Text.Read.Compat.Repl.Batteries:    1
+    Type.Reflection.Compat:             1
+    Type.Reflection.Compat.Repl.Batteries:1
+
+base-orphans-0.8.7-68gGt71vpOZ5uwbcNbxwhZ
+    Data.Orphans:                       1
+    Data.Orphans.Prelude:               1
+
+bifunctors-5.5.12-DkW4sW0fg2JABFk0cRCAHw
+    Data.Biapplicative:                 1
+    Data.Bifunctor.Biap:                1
+    Data.Bifunctor.Biff:                1
+    Data.Bifunctor.Clown:               1
+    Data.Bifunctor.Fix:                 1
+    Data.Bifunctor.Flip:                1
+    Data.Bifunctor.Functor:             1
+    Data.Bifunctor.Join:                1
+    Data.Bifunctor.Joker:               1
+    Data.Bifunctor.Product:             1
+    Data.Bifunctor.Sum:                 1
+    Data.Bifunctor.TH:                  1
+    Data.Bifunctor.TH.Internal:         1
+    Data.Bifunctor.Tannen:              1
+    Data.Bifunctor.Wrapped:             1
+    Paths_bifunctors:                   1
+
+bimap-0.4.0-HQ8bW7eOER75mGuHQdK4VZ
+    Data.Bimap:                         1
+
+binary-0.8.8.0-8geveWiewY98oMa1Q4NvzB
+    Data.Binary:                        1
+    Data.Binary.Builder:                1
+    Data.Binary.Class:                  1
+    Data.Binary.FloatCast:              1
+    Data.Binary.Generic:                1
+    Data.Binary.Get:                    1
+    Data.Binary.Get.Internal:           1
+    Data.Binary.Internal:               1
+    Data.Binary.Put:                    1
+
+blaze-builder-0.4.2.2-7JLcR4JQIo2IS4OD967axe
+    Blaze.ByteString.Builder:           1
+    Blaze.ByteString.Builder.ByteString:1
+    Blaze.ByteString.Builder.Char.Utf8: 1
+    Blaze.ByteString.Builder.Char8:     1
+    Blaze.ByteString.Builder.Compat.Write:1
+    Blaze.ByteString.Builder.HTTP:      1
+    Blaze.ByteString.Builder.Html.Utf8: 1
+    Blaze.ByteString.Builder.Html.Word: 1
+    Blaze.ByteString.Builder.Int:       1
+    Blaze.ByteString.Builder.Internal.Write:1
+    Blaze.ByteString.Builder.Word:      1
+
+bytestring-0.10.12.0-A1EizoKtfkUxRIgN0VmIs
+    Data.ByteString:                    1
+    Data.ByteString.Builder:            1
+    Data.ByteString.Builder.ASCII:      1
+    Data.ByteString.Builder.Extra:      1
+    Data.ByteString.Builder.Internal:   1
+    Data.ByteString.Builder.Prim:       1
+    Data.ByteString.Builder.Prim.ASCII: 1
+    Data.ByteString.Builder.Prim.Binary:1
+    Data.ByteString.Builder.Prim.Internal:1
+    Data.ByteString.Builder.Prim.Internal.Base16:1
+    Data.ByteString.Builder.Prim.Internal.Floating:1
+    Data.ByteString.Builder.Prim.Internal.UncheckedShifts:1
+    Data.ByteString.Char8:              1
+    Data.ByteString.Internal:           1
+    Data.ByteString.Lazy:               1
+    Data.ByteString.Lazy.Builder:       1
+    Data.ByteString.Lazy.Builder.ASCII: 1
+    Data.ByteString.Lazy.Builder.Extras:1
+    Data.ByteString.Lazy.Char8:         1
+    Data.ByteString.Lazy.Internal:      1
+    Data.ByteString.Short:              1
+    Data.ByteString.Short.Internal:     1
+    Data.ByteString.Unsafe:             1
+
+call-stack-0.4.0-F2G8VFlONYOm6t7yQ4QAt
+    Data.CallStack:                     1
+    Data.SrcLoc:                        1
+    Paths_call_stack:                   1
+
+case-insensitive-1.2.1.0-4bOJ41Nw5pgFeQII11BzXo
+    Data.CaseInsensitive:               1
+    Data.CaseInsensitive.Internal:      1
+    Data.CaseInsensitive.Unsafe:        1
+
+commutative-semigroups-0.1.0.0-15cVSMjm1335X6EqonoWxP
+    Data.Semigroup.Commutative:         1
+    Numeric.Product.Commutative:        1
+
+comonad-5.0.8-4bR0N05aD1W78uCVafNrxo
+    Control.Comonad:                    1
+    Control.Comonad.Env:                1
+    Control.Comonad.Env.Class:          1
+    Control.Comonad.Hoist.Class:        1
+    Control.Comonad.Identity:           1
+    Control.Comonad.Store:              1
+    Control.Comonad.Store.Class:        1
+    Control.Comonad.Traced:             1
+    Control.Comonad.Traced.Class:       1
+    Control.Comonad.Trans.Class:        1
+    Control.Comonad.Trans.Env:          1
+    Control.Comonad.Trans.Identity:     1
+    Control.Comonad.Trans.Store:        1
+    Control.Comonad.Trans.Traced:       1
+    Data.Functor.Composition:           1
+
+constraints-0.13.4-L4x3NqELgxjEmJWsW0BU9p
+    Data.Constraint:                    1
+    Data.Constraint.Deferrable:         1
+    Data.Constraint.Forall:             1
+    Data.Constraint.Lifting:            1
+    Data.Constraint.Nat:                1
+    Data.Constraint.Symbol:             1
+    Data.Constraint.Unsafe:             1
+
+constraints-extras-0.4.0.0-ErVwJl3Znr8nmWYMW9Q9I
+    Data.Constraint.Compose:            1
+    Data.Constraint.Extras:             1
+    Data.Constraint.Extras.TH:          1
+    Data.Constraint.Flip:               1
+
+containers-0.6.5.1-Jb3F8jbyqRBHMHVa9Whe7M
+    Data.Containers.ListUtils:          1
+    Data.Graph:                         1
+    Data.IntMap:                        668161
+    Data.IntMap.Internal:               1
+    Data.IntMap.Internal.Debug:         1
+    Data.IntMap.Internal.DeprecatedDebug:1
+    Data.IntMap.Lazy:                   1
+    Data.IntMap.Merge.Lazy:             1
+    Data.IntMap.Merge.Strict:           1
+    Data.IntMap.Strict:                 331764
+    Data.IntMap.Strict.Internal:        1
+    Data.IntSet:                        1
+    Data.IntSet.Internal:               1
+    Data.Map:                           733717
+    Data.Map.Internal:                  1
+    Data.Map.Internal.Debug:            1
+    Data.Map.Internal.DeprecatedShowTree:1
+    Data.Map.Lazy:                      1
+    Data.Map.Merge.Lazy:                1
+    Data.Map.Merge.Strict:              1
+    Data.Map.Strict:                    1
+    Data.Map.Strict.Internal:           1
+    Data.Sequence:                      1
+    Data.Sequence.Internal:             1
+    Data.Sequence.Internal.Sorting:     1
+    Data.Set:                           1
+    Data.Set.Internal:                  1
+    Data.Tree:                          1
+    Utils.Containers.Internal.BitQueue: 1
+    Utils.Containers.Internal.BitUtil:  1
+    Utils.Containers.Internal.Coercions:1
+    Utils.Containers.Internal.PtrEquality:1
+    Utils.Containers.Internal.State:    1
+    Utils.Containers.Internal.StrictMaybe:1
+    Utils.Containers.Internal.StrictPair:1
+    Utils.Containers.Internal.TypeError:1
+
+contravariant-1.5.5-IVbEhEdynkx9xEz0KDBL8h
+    Data.Functor.Contravariant.Compose: 1
+    Data.Functor.Contravariant.Divisible:1
+    Data.Functor.Contravariant.Generic: 1
+
+data-default-0.7.1.1-Dulmwp0aYfG41uRo6EdCK3
+    Data.Default:                       1
+
+data-default-class-0.1.2.0-E30fqgskg4lDLFEoUyV3eL
+    Data.Default.Class:                 1
+
+data-default-instances-containers-0.0.1-7TQjGS05LmdIpRVT6e4aCl
+    Data.Default.Instances.Containers:  1
+
+data-default-instances-dlist-0.0.1-ivkgNS8Bh4H4GNyYEKLg7
+    Data.Default.Instances.DList:       1
+
+data-default-instances-old-locale-0.0.1-9D7fX28iyCL8oCv6R6PCja
+    Data.Default.Instances.OldLocale:   1
+
+data-fix-0.3.2-BrHxIBwkqYS6qm6kEPINfK
+    Data.Fix:                           1
+
+deepseq-1.4.4.0-1l24lJnqQnGEBnHHreMAq3
+    Control.DeepSeq:                    1
+    Control.DeepSeq.BackDoor:           631007
+
+dependent-map-0.4.0.0-HDMOjN2Sng38A4DxUFM4Fi
+    Data.Dependent.Map:                 585096
+    Data.Dependent.Map.Internal:        1
+    Data.Dependent.Map.Lens:            1
+    Data.Dependent.Map.PtrEquality:     1878
+
+dependent-sum-0.7.2.0-eb17N54HIJbzGBjpqSK6
+    Data.Dependent.Sum:                 1
+
+dependent-sum-template-0.1.2.0-5pfr9XWHJeUIorOTCEbeSg
+    Data.Dependent.Sum.TH.Internal:     1
+    Data.GADT.Compare.Monad:            1
+    Data.GADT.Compare.TH:               1
+    Data.GADT.Show.TH:                  1
+
+distributive-0.6.2.1-E6FBRTHUz4xDeJS4jkKGRN
+    Data.Distributive:                  1
+    Data.Distributive.Generic:          1
+
+dlist-1.0-7owEwRX6KdsXn0LOsbujO
+    Data.DList:                         1
+    Data.DList.DNonEmpty:               1
+    Data.DList.DNonEmpty.Internal:      1
+    Data.DList.Internal:                1
+    Data.DList.Unsafe:                  1
+
+exception-transformers-0.4.0.11-Eb8msWLZ6uBC8TfDYr8s1I
+    Control.Monad.Exception:            1
+
+exceptions-0.10.5-BqyE5VZGB6MJU8pEcckH3M
+    Control.Monad.Catch:                1
+    Control.Monad.Catch.Pure:           1
+
+free-5.1.9-BT0DrMPCj7zEwehq6rjGJZ
+    Control.Alternative.Free:           1
+    Control.Alternative.Free.Final:     1
+    Control.Applicative.Free:           1
+    Control.Applicative.Free.Fast:      1
+    Control.Applicative.Free.Final:     1
+    Control.Applicative.Trans.Free:     1
+    Control.Comonad.Cofree:             1
+    Control.Comonad.Cofree.Class:       1
+    Control.Comonad.Trans.Cofree:       1
+    Control.Comonad.Trans.Coiter:       1
+    Control.Monad.Free:                 1
+    Control.Monad.Free.Ap:              1
+    Control.Monad.Free.Church:          1
+    Control.Monad.Free.Class:           1
+    Control.Monad.Free.TH:              1
+    Control.Monad.Trans.Free:           1
+    Control.Monad.Trans.Free.Ap:        1
+    Control.Monad.Trans.Free.Church:    1
+    Control.Monad.Trans.Iter:           1
+    Data.Functor.Classes.Compat:        1
+
+generically-0.1-35Te45UlhoWD8zU0TKv2Uc
+    GHC.Generics.Generically:           1
+
+ghc-boot-th-8.10.7-FQtGTtjFMOPJdcMgIgVdDb
+    GHC.ForeignSrcLang.Type:            1
+    GHC.LanguageExtensions.Type:        1
+    GHC.Lexeme:                         9074
+
+ghc-prim
+    GHC.CString:                        197893
+    GHC.Classes:                        1
+    GHC.Debug:                          791
+    GHC.IntWord64:                      1
+    GHC.Magic:                          1
+    GHC.Prim.Ext:                       221
+    GHC.PrimopWrappers:                 9423
+    GHC.Tuple:                          7208
+    GHC.Types:                          75393
+
+ghcjs-base-0.2.0.3-7FzwNCL6iT1GrlwZ9umVZf
+    Data.JSString:                      1
+    Data.JSString.Int:                  1
+    Data.JSString.Internal:             1
+    Data.JSString.Internal.Fusion:      1
+    Data.JSString.Internal.Fusion.CaseMapping:2938
+    Data.JSString.Internal.Fusion.Common:1
+    Data.JSString.Internal.Fusion.Types:1
+    Data.JSString.Internal.Search:      1
+    Data.JSString.Internal.Type:        1
+    Data.JSString.Raw:                  1
+    Data.JSString.Read:                 1
+    Data.JSString.RealFloat:            1
+    Data.JSString.RegExp:               1
+    GHCJS.Buffer:                       1
+    GHCJS.Buffer.Types:                 1
+    GHCJS.Concurrent:                   1
+    GHCJS.Foreign:                      1
+    GHCJS.Foreign.Callback:             1
+    GHCJS.Foreign.Callback.Internal:    1
+    GHCJS.Foreign.Export:               1
+    GHCJS.Foreign.Internal:             1
+    GHCJS.Internal.Types:               1
+    GHCJS.Marshal:                      2008
+    GHCJS.Marshal.Internal:             1
+    GHCJS.Marshal.Pure:                 1
+    GHCJS.Nullable:                     1
+    GHCJS.Types:                        1
+    JavaScript.Array:                   1
+    JavaScript.Array.Internal:          1
+    JavaScript.Array.ST:                1
+    JavaScript.Cast:                    1
+    JavaScript.Number:                  1
+    JavaScript.Object:                  1
+    JavaScript.Object.Internal:         1
+    JavaScript.RegExp:                  1
+    JavaScript.TypedArray:              1
+    JavaScript.TypedArray.ArrayBuffer:  1
+    JavaScript.TypedArray.ArrayBuffer.Internal:1
+    JavaScript.TypedArray.ArrayBuffer.ST:1
+    JavaScript.TypedArray.DataView:     1
+    JavaScript.TypedArray.DataView.Internal:1
+    JavaScript.TypedArray.DataView.ST:  1
+    JavaScript.TypedArray.Internal:     1
+    JavaScript.TypedArray.Internal.Types:1
+    JavaScript.TypedArray.ST:           1
+    JavaScript.Web.AnimationFrame:      1
+    JavaScript.Web.Blob:                1
+    JavaScript.Web.Blob.Internal:       1
+    JavaScript.Web.Canvas:              1
+    JavaScript.Web.Canvas.ImageData:    1
+    JavaScript.Web.Canvas.Internal:     1
+    JavaScript.Web.Canvas.TextMetrics:  1
+    JavaScript.Web.CloseEvent:          1
+    JavaScript.Web.CloseEvent.Internal: 1
+    JavaScript.Web.ErrorEvent:          1
+    JavaScript.Web.ErrorEvent.Internal: 1
+    JavaScript.Web.File:                1
+    JavaScript.Web.History:             1
+    JavaScript.Web.Location:            1
+    JavaScript.Web.MessageEvent:        1
+    JavaScript.Web.MessageEvent.Internal:1
+    JavaScript.Web.Performance:         1
+    JavaScript.Web.Storage:             1
+    JavaScript.Web.Storage.Internal:    1
+    JavaScript.Web.StorageEvent:        1
+    JavaScript.Web.WebSocket:           1
+    JavaScript.Web.Worker:              1
+
+ghcjs-dom-0.9.4.0-7D07xJnME4h8365CyighbD
+    GHCJS.DOM.Debug:                    1
+    GHCJS.DOM.Debug.Internal:           1
+    GHCJS.DOM.Document:                 4822
+
+ghcjs-dom-jsffi-0.9.4.0-47s8EUYI9ptHH2NrIQGHdX
+    GHCJS.DOM:                          5530
+    GHCJS.DOM.EventM:                   1321
+    GHCJS.DOM.EventTargetClosures:      1
+    GHCJS.DOM.JSFFI.AudioContext:       1
+    GHCJS.DOM.JSFFI.DOMError:           1
+    GHCJS.DOM.JSFFI.Database:           1
+    GHCJS.DOM.JSFFI.Generated.ANGLEInstancedArrays:1
+    GHCJS.DOM.JSFFI.Generated.AbstractWorker:1
+    GHCJS.DOM.JSFFI.Generated.AnalyserNode:1
+    GHCJS.DOM.JSFFI.Generated.Animatable:1
+    GHCJS.DOM.JSFFI.Generated.Animation:1
+    GHCJS.DOM.JSFFI.Generated.AnimationEvent:1
+    GHCJS.DOM.JSFFI.Generated.ApplePayError:1
+    GHCJS.DOM.JSFFI.Generated.ApplePayPaymentAuthorizedEvent:1
+    GHCJS.DOM.JSFFI.Generated.ApplePayPaymentMethodSelectedEvent:1
+    GHCJS.DOM.JSFFI.Generated.ApplePaySession:1
+    GHCJS.DOM.JSFFI.Generated.ApplePayShippingContactSelectedEvent:1
+    GHCJS.DOM.JSFFI.Generated.ApplePayShippingMethodSelectedEvent:1
+    GHCJS.DOM.JSFFI.Generated.ApplePayValidateMerchantEvent:1
+    GHCJS.DOM.JSFFI.Generated.ApplicationCache:1
+    GHCJS.DOM.JSFFI.Generated.Attr:     1
+    GHCJS.DOM.JSFFI.Generated.AudioBuffer:1
+    GHCJS.DOM.JSFFI.Generated.AudioBufferCallback:1
+    GHCJS.DOM.JSFFI.Generated.AudioBufferSourceNode:1
+    GHCJS.DOM.JSFFI.Generated.AudioContext:1
+    GHCJS.DOM.JSFFI.Generated.AudioDestinationNode:1
+    GHCJS.DOM.JSFFI.Generated.AudioListener:1
+    GHCJS.DOM.JSFFI.Generated.AudioNode:1
+    GHCJS.DOM.JSFFI.Generated.AudioParam:1
+    GHCJS.DOM.JSFFI.Generated.AudioProcessingEvent:1
+    GHCJS.DOM.JSFFI.Generated.AudioTrack:1
+    GHCJS.DOM.JSFFI.Generated.AudioTrackList:1
+    GHCJS.DOM.JSFFI.Generated.AutocompleteErrorEvent:1
+    GHCJS.DOM.JSFFI.Generated.BarProp:  1
+    GHCJS.DOM.JSFFI.Generated.BasicCredential:1
+    GHCJS.DOM.JSFFI.Generated.BeforeLoadEvent:1
+    GHCJS.DOM.JSFFI.Generated.BeforeUnloadEvent:1
+    GHCJS.DOM.JSFFI.Generated.BiquadFilterNode:1
+    GHCJS.DOM.JSFFI.Generated.Blob:     1
+    GHCJS.DOM.JSFFI.Generated.BlobCallback:1
+    GHCJS.DOM.JSFFI.Generated.Body:     1
+    GHCJS.DOM.JSFFI.Generated.ByteLengthQueuingStrategy:1
+    GHCJS.DOM.JSFFI.Generated.CSS:      1
+    GHCJS.DOM.JSFFI.Generated.CSSFontFaceLoadEvent:1
+    GHCJS.DOM.JSFFI.Generated.CSSFontFaceRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSImportRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSKeyframeRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSKeyframesRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSMediaRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSNamespaceRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSPageRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSPrimitiveValue:1
+    GHCJS.DOM.JSFFI.Generated.CSSRule:  1
+    GHCJS.DOM.JSFFI.Generated.CSSRuleList:1
+    GHCJS.DOM.JSFFI.Generated.CSSStyleDeclaration:1
+    GHCJS.DOM.JSFFI.Generated.CSSStyleRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSStyleSheet:1
+    GHCJS.DOM.JSFFI.Generated.CSSSupportsRule:1
+    GHCJS.DOM.JSFFI.Generated.CSSValue: 1
+    GHCJS.DOM.JSFFI.Generated.CSSValueList:1
+    GHCJS.DOM.JSFFI.Generated.CanvasCaptureMediaStreamTrack:1
+    GHCJS.DOM.JSFFI.Generated.CanvasGradient:1
+    GHCJS.DOM.JSFFI.Generated.CanvasPath:1
+    GHCJS.DOM.JSFFI.Generated.CanvasRenderingContext2D:1
+    GHCJS.DOM.JSFFI.Generated.CharacterData:1
+    GHCJS.DOM.JSFFI.Generated.ChildNode:5867
+    GHCJS.DOM.JSFFI.Generated.ClipboardEvent:1
+    GHCJS.DOM.JSFFI.Generated.CloseEvent:1
+    GHCJS.DOM.JSFFI.Generated.CommandLineAPIHost:1
+    GHCJS.DOM.JSFFI.Generated.Comment:  1
+    GHCJS.DOM.JSFFI.Generated.CompositionEvent:1
+    GHCJS.DOM.JSFFI.Generated.ConvolverNode:1
+    GHCJS.DOM.JSFFI.Generated.Coordinates:1
+    GHCJS.DOM.JSFFI.Generated.CountQueuingStrategy:1
+    GHCJS.DOM.JSFFI.Generated.Counter:  1
+    GHCJS.DOM.JSFFI.Generated.Crypto:   1
+    GHCJS.DOM.JSFFI.Generated.CryptoKey:1
+    GHCJS.DOM.JSFFI.Generated.CustomElementRegistry:1
+    GHCJS.DOM.JSFFI.Generated.CustomEvent:1
+    GHCJS.DOM.JSFFI.Generated.DOMError: 1
+    GHCJS.DOM.JSFFI.Generated.DOMException:1
+    GHCJS.DOM.JSFFI.Generated.DOMImplementation:1
+    GHCJS.DOM.JSFFI.Generated.DOMNamedFlowCollection:1
+    GHCJS.DOM.JSFFI.Generated.DOMParser:1
+    GHCJS.DOM.JSFFI.Generated.DOMPoint: 1
+    GHCJS.DOM.JSFFI.Generated.DOMPointReadOnly:1
+    GHCJS.DOM.JSFFI.Generated.DOMRect:  1
+    GHCJS.DOM.JSFFI.Generated.DOMRectReadOnly:1
+    GHCJS.DOM.JSFFI.Generated.DOMStringList:1
+    GHCJS.DOM.JSFFI.Generated.DOMStringMap:1
+    GHCJS.DOM.JSFFI.Generated.DOMTokenList:1
+    GHCJS.DOM.JSFFI.Generated.DataCue:  1
+    GHCJS.DOM.JSFFI.Generated.DataTransfer:1
+    GHCJS.DOM.JSFFI.Generated.DataTransferItem:1
+    GHCJS.DOM.JSFFI.Generated.DataTransferItemList:1
+    GHCJS.DOM.JSFFI.Generated.Database: 1
+    GHCJS.DOM.JSFFI.Generated.DatabaseCallback:1
+    GHCJS.DOM.JSFFI.Generated.DedicatedWorkerGlobalScope:1
+    GHCJS.DOM.JSFFI.Generated.DelayNode:1
+    GHCJS.DOM.JSFFI.Generated.DeviceMotionEvent:1
+    GHCJS.DOM.JSFFI.Generated.DeviceOrientationEvent:1
+    GHCJS.DOM.JSFFI.Generated.DeviceProximityEvent:1857
+    GHCJS.DOM.JSFFI.Generated.Document: 3654
+    GHCJS.DOM.JSFFI.Generated.DocumentAndElementEventHandlers:1
+    GHCJS.DOM.JSFFI.Generated.DocumentFragment:7318
+    GHCJS.DOM.JSFFI.Generated.DocumentOrShadowRoot:1
+    GHCJS.DOM.JSFFI.Generated.DocumentTimeline:1
+    GHCJS.DOM.JSFFI.Generated.DocumentType:1
+    GHCJS.DOM.JSFFI.Generated.DynamicsCompressorNode:1
+    GHCJS.DOM.JSFFI.Generated.EXTBlendMinMax:1
+    GHCJS.DOM.JSFFI.Generated.EXTTextureFilterAnisotropic:1
+    GHCJS.DOM.JSFFI.Generated.EXTsRGB:  545
+    GHCJS.DOM.JSFFI.Generated.Element:  1
+    GHCJS.DOM.JSFFI.Generated.ElementCSSInlineStyle:1
+    GHCJS.DOM.JSFFI.Generated.Enums:    1
+    GHCJS.DOM.JSFFI.Generated.ErrorEvent:8323
+    GHCJS.DOM.JSFFI.Generated.Event:    1
+    GHCJS.DOM.JSFFI.Generated.EventListener:1
+    GHCJS.DOM.JSFFI.Generated.EventSource:1
+    GHCJS.DOM.JSFFI.Generated.EventTarget:1
+    GHCJS.DOM.JSFFI.Generated.File:     1
+    GHCJS.DOM.JSFFI.Generated.FileError:1
+    GHCJS.DOM.JSFFI.Generated.FileException:1
+    GHCJS.DOM.JSFFI.Generated.FileList: 1
+    GHCJS.DOM.JSFFI.Generated.FileReader:1
+    GHCJS.DOM.JSFFI.Generated.FileReaderSync:1
+    GHCJS.DOM.JSFFI.Generated.FocusEvent:1
+    GHCJS.DOM.JSFFI.Generated.FontFace: 1
+    GHCJS.DOM.JSFFI.Generated.FontFaceSet:1
+    GHCJS.DOM.JSFFI.Generated.FormData: 1
+    GHCJS.DOM.JSFFI.Generated.GainNode: 1
+    GHCJS.DOM.JSFFI.Generated.Gamepad:  1
+    GHCJS.DOM.JSFFI.Generated.GamepadButton:1
+    GHCJS.DOM.JSFFI.Generated.GamepadEvent:1
+    GHCJS.DOM.JSFFI.Generated.Geolocation:1
+    GHCJS.DOM.JSFFI.Generated.Geoposition:1
+    GHCJS.DOM.JSFFI.Generated.GlobalCrypto:22359
+    GHCJS.DOM.JSFFI.Generated.GlobalEventHandlers:1
+    GHCJS.DOM.JSFFI.Generated.GlobalPerformance:1
+    GHCJS.DOM.JSFFI.Generated.HTMLAllCollection:1
+    GHCJS.DOM.JSFFI.Generated.HTMLAnchorElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLAppletElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLAreaElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLAttachmentElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLBRElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLBaseElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLBodyElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLButtonElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLCanvasElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLCollection:1
+    GHCJS.DOM.JSFFI.Generated.HTMLDListElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLDataElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLDataListElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLDetailsElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLDirectoryElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLDivElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLDocument:1
+    GHCJS.DOM.JSFFI.Generated.HTMLElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLEmbedElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLFieldSetElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLFontElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLFormControlsCollection:1
+    GHCJS.DOM.JSFFI.Generated.HTMLFormElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLFrameElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLFrameSetElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLHRElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLHeadElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLHeadingElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLHtmlElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLHyperlinkElementUtils:1
+    GHCJS.DOM.JSFFI.Generated.HTMLIFrameElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLImageElement:5942
+    GHCJS.DOM.JSFFI.Generated.HTMLInputElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLKeygenElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLLIElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLLabelElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLLegendElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLLinkElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLMapElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLMarqueeElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLMediaElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLMenuElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLMetaElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLMeterElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLModElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLOListElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLObjectElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLOptGroupElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLOptionElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLOptionsCollection:1
+    GHCJS.DOM.JSFFI.Generated.HTMLOutputElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLParagraphElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLParamElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLPreElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLProgressElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLQuoteElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLScriptElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLSelectElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLSlotElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLSourceElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLStyleElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTableCaptionElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTableCellElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTableColElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTableElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTableRowElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTableSectionElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTemplateElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTextAreaElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTimeElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTitleElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLTrackElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLUListElement:1
+    GHCJS.DOM.JSFFI.Generated.HTMLVideoElement:1
+    GHCJS.DOM.JSFFI.Generated.HashChangeEvent:1
+    GHCJS.DOM.JSFFI.Generated.Headers:  1
+    GHCJS.DOM.JSFFI.Generated.History:  1
+    GHCJS.DOM.JSFFI.Generated.IDBCursor:1
+    GHCJS.DOM.JSFFI.Generated.IDBCursorWithValue:1
+    GHCJS.DOM.JSFFI.Generated.IDBDatabase:1
+    GHCJS.DOM.JSFFI.Generated.IDBFactory:1
+    GHCJS.DOM.JSFFI.Generated.IDBIndex: 1
+    GHCJS.DOM.JSFFI.Generated.IDBKeyRange:1
+    GHCJS.DOM.JSFFI.Generated.IDBObjectStore:1
+    GHCJS.DOM.JSFFI.Generated.IDBOpenDBRequest:1
+    GHCJS.DOM.JSFFI.Generated.IDBRequest:1
+    GHCJS.DOM.JSFFI.Generated.IDBTransaction:1
+    GHCJS.DOM.JSFFI.Generated.IDBVersionChangeEvent:1
+    GHCJS.DOM.JSFFI.Generated.ImageData:1
+    GHCJS.DOM.JSFFI.Generated.InputEvent:1
+    GHCJS.DOM.JSFFI.Generated.InspectorFrontendHost:1
+    GHCJS.DOM.JSFFI.Generated.IntersectionObserver:1
+    GHCJS.DOM.JSFFI.Generated.IntersectionObserverCallback:1
+    GHCJS.DOM.JSFFI.Generated.IntersectionObserverEntry:1
+    GHCJS.DOM.JSFFI.Generated.KeyboardEvent:1
+    GHCJS.DOM.JSFFI.Generated.KeyframeEffect:1
+    GHCJS.DOM.JSFFI.Generated.Location: 1
+    GHCJS.DOM.JSFFI.Generated.MediaController:1
+    GHCJS.DOM.JSFFI.Generated.MediaControlsHost:1
+    GHCJS.DOM.JSFFI.Generated.MediaDeviceInfo:1
+    GHCJS.DOM.JSFFI.Generated.MediaDevices:1
+    GHCJS.DOM.JSFFI.Generated.MediaElementAudioSourceNode:1
+    GHCJS.DOM.JSFFI.Generated.MediaEncryptedEvent:1
+    GHCJS.DOM.JSFFI.Generated.MediaError:1
+    GHCJS.DOM.JSFFI.Generated.MediaKeyMessageEvent:1
+    GHCJS.DOM.JSFFI.Generated.MediaKeySession:1
+    GHCJS.DOM.JSFFI.Generated.MediaKeyStatusMap:1
+    GHCJS.DOM.JSFFI.Generated.MediaKeySystemAccess:1
+    GHCJS.DOM.JSFFI.Generated.MediaKeys:1
+    GHCJS.DOM.JSFFI.Generated.MediaList:1
+    GHCJS.DOM.JSFFI.Generated.MediaQueryList:1
+    GHCJS.DOM.JSFFI.Generated.MediaQueryListListener:1
+    GHCJS.DOM.JSFFI.Generated.MediaRemoteControls:1
+    GHCJS.DOM.JSFFI.Generated.MediaSession:1
+    GHCJS.DOM.JSFFI.Generated.MediaSource:1
+    GHCJS.DOM.JSFFI.Generated.MediaStream:1
+    GHCJS.DOM.JSFFI.Generated.MediaStreamAudioDestinationNode:1
+    GHCJS.DOM.JSFFI.Generated.MediaStreamAudioSourceNode:1
+    GHCJS.DOM.JSFFI.Generated.MediaStreamEvent:1
+    GHCJS.DOM.JSFFI.Generated.MediaStreamTrack:1
+    GHCJS.DOM.JSFFI.Generated.MediaStreamTrackEvent:1
+    GHCJS.DOM.JSFFI.Generated.MessageChannel:1
+    GHCJS.DOM.JSFFI.Generated.MessageEvent:1
+    GHCJS.DOM.JSFFI.Generated.MessagePort:1
+    GHCJS.DOM.JSFFI.Generated.MimeType: 1
+    GHCJS.DOM.JSFFI.Generated.MimeTypeArray:1
+    GHCJS.DOM.JSFFI.Generated.MouseEvent:1
+    GHCJS.DOM.JSFFI.Generated.MutationEvent:1
+    GHCJS.DOM.JSFFI.Generated.MutationObserver:1
+    GHCJS.DOM.JSFFI.Generated.MutationRecord:1
+    GHCJS.DOM.JSFFI.Generated.NamedNodeMap:1
+    GHCJS.DOM.JSFFI.Generated.Navigator:1
+    GHCJS.DOM.JSFFI.Generated.NavigatorConcurrentHardware:1
+    GHCJS.DOM.JSFFI.Generated.NavigatorID:1
+    GHCJS.DOM.JSFFI.Generated.NavigatorLanguage:1
+    GHCJS.DOM.JSFFI.Generated.NavigatorOnLine:1
+    GHCJS.DOM.JSFFI.Generated.NavigatorUserMediaError:1
+    GHCJS.DOM.JSFFI.Generated.NavigatorUserMediaErrorCallback:1
+    GHCJS.DOM.JSFFI.Generated.NavigatorUserMediaSuccessCallback:19660
+    GHCJS.DOM.JSFFI.Generated.Node:     1
+    GHCJS.DOM.JSFFI.Generated.NodeFilter:1
+    GHCJS.DOM.JSFFI.Generated.NodeIterator:1
+    GHCJS.DOM.JSFFI.Generated.NodeList: 1
+    GHCJS.DOM.JSFFI.Generated.NonDocumentTypeChildNode:1
+    GHCJS.DOM.JSFFI.Generated.NonElementParentNode:1
+    GHCJS.DOM.JSFFI.Generated.Notification:1
+    GHCJS.DOM.JSFFI.Generated.NotificationPermissionCallback:1
+    GHCJS.DOM.JSFFI.Generated.OESStandardDerivatives:1
+    GHCJS.DOM.JSFFI.Generated.OESTextureHalfFloat:1
+    GHCJS.DOM.JSFFI.Generated.OESVertexArrayObject:1
+    GHCJS.DOM.JSFFI.Generated.OfflineAudioCompletionEvent:1
+    GHCJS.DOM.JSFFI.Generated.OfflineAudioContext:1
+    GHCJS.DOM.JSFFI.Generated.OscillatorNode:1
+    GHCJS.DOM.JSFFI.Generated.OverconstrainedError:1
+    GHCJS.DOM.JSFFI.Generated.OverconstrainedErrorEvent:1
+    GHCJS.DOM.JSFFI.Generated.OverflowEvent:1
+    GHCJS.DOM.JSFFI.Generated.PageTransitionEvent:1
+    GHCJS.DOM.JSFFI.Generated.PannerNode:1
+    GHCJS.DOM.JSFFI.Generated.ParentNode:1
+    GHCJS.DOM.JSFFI.Generated.PasswordCredential:1
+    GHCJS.DOM.JSFFI.Generated.Path2D:   1
+    GHCJS.DOM.JSFFI.Generated.Performance:1
+    GHCJS.DOM.JSFFI.Generated.PerformanceEntry:1
+    GHCJS.DOM.JSFFI.Generated.PerformanceNavigation:1
+    GHCJS.DOM.JSFFI.Generated.PerformanceObserver:1
+    GHCJS.DOM.JSFFI.Generated.PerformanceObserverCallback:1
+    GHCJS.DOM.JSFFI.Generated.PerformanceObserverEntryList:1
+    GHCJS.DOM.JSFFI.Generated.PerformanceResourceTiming:1
+    GHCJS.DOM.JSFFI.Generated.PerformanceTiming:1
+    GHCJS.DOM.JSFFI.Generated.Plugin:   1
+    GHCJS.DOM.JSFFI.Generated.PluginArray:1
+    GHCJS.DOM.JSFFI.Generated.PopStateEvent:1
+    GHCJS.DOM.JSFFI.Generated.PositionCallback:1
+    GHCJS.DOM.JSFFI.Generated.PositionError:1
+    GHCJS.DOM.JSFFI.Generated.PositionErrorCallback:1
+    GHCJS.DOM.JSFFI.Generated.ProcessingInstruction:1
+    GHCJS.DOM.JSFFI.Generated.ProgressEvent:1
+    GHCJS.DOM.JSFFI.Generated.PromiseRejectionEvent:1
+    GHCJS.DOM.JSFFI.Generated.QuickTimePluginReplacement:1
+    GHCJS.DOM.JSFFI.Generated.RGBColor: 1
+    GHCJS.DOM.JSFFI.Generated.RTCDTMFSender:1
+    GHCJS.DOM.JSFFI.Generated.RTCDTMFToneChangeEvent:1
+    GHCJS.DOM.JSFFI.Generated.RTCDataChannel:1
+    GHCJS.DOM.JSFFI.Generated.RTCDataChannelEvent:1
+    GHCJS.DOM.JSFFI.Generated.RTCIceCandidate:1
+    GHCJS.DOM.JSFFI.Generated.RTCIceCandidateEvent:1
+    GHCJS.DOM.JSFFI.Generated.RTCIceTransport:1
+    GHCJS.DOM.JSFFI.Generated.RTCPeerConnection:1
+    GHCJS.DOM.JSFFI.Generated.RTCPeerConnectionIceEvent:1
+    GHCJS.DOM.JSFFI.Generated.RTCRtpReceiver:1
+    GHCJS.DOM.JSFFI.Generated.RTCRtpSender:1
+    GHCJS.DOM.JSFFI.Generated.RTCRtpTransceiver:1
+    GHCJS.DOM.JSFFI.Generated.RTCSessionDescription:1
+    GHCJS.DOM.JSFFI.Generated.RTCTrackEvent:1
+    GHCJS.DOM.JSFFI.Generated.RadioNodeList:1
+    GHCJS.DOM.JSFFI.Generated.Range:    1
+    GHCJS.DOM.JSFFI.Generated.ReadableByteStreamController:1
+    GHCJS.DOM.JSFFI.Generated.ReadableStream:1
+    GHCJS.DOM.JSFFI.Generated.ReadableStreamBYOBReader:1
+    GHCJS.DOM.JSFFI.Generated.ReadableStreamBYOBRequest:1
+    GHCJS.DOM.JSFFI.Generated.ReadableStreamDefaultController:1
+    GHCJS.DOM.JSFFI.Generated.ReadableStreamDefaultReader:1
+    GHCJS.DOM.JSFFI.Generated.ReadableStreamSource:1
+    GHCJS.DOM.JSFFI.Generated.Rect:     1
+    GHCJS.DOM.JSFFI.Generated.Request:  1
+    GHCJS.DOM.JSFFI.Generated.RequestAnimationFrameCallback:1
+    GHCJS.DOM.JSFFI.Generated.Response: 1
+    GHCJS.DOM.JSFFI.Generated.SQLError: 1
+    GHCJS.DOM.JSFFI.Generated.SQLException:1
+    GHCJS.DOM.JSFFI.Generated.SQLResultSet:1
+    GHCJS.DOM.JSFFI.Generated.SQLResultSetRowList:1
+    GHCJS.DOM.JSFFI.Generated.SQLStatementCallback:1
+    GHCJS.DOM.JSFFI.Generated.SQLStatementErrorCallback:1
+    GHCJS.DOM.JSFFI.Generated.SQLTransaction:1
+    GHCJS.DOM.JSFFI.Generated.SQLTransactionCallback:1
+    GHCJS.DOM.JSFFI.Generated.SQLTransactionErrorCallback:1
+    GHCJS.DOM.JSFFI.Generated.SVGAElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGAltGlyphElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGAngle: 1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedAngle:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedBoolean:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedEnumeration:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedInteger:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedLength:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedLengthList:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedNumber:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedNumberList:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedPreserveAspectRatio:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedRect:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedString:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimatedTransformList:1
+    GHCJS.DOM.JSFFI.Generated.SVGAnimationElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGCircleElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGClipPathElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGComponentTransferFunctionElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGCursorElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGEllipseElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGException:1
+    GHCJS.DOM.JSFFI.Generated.SVGExternalResourcesRequired:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEBlendElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEColorMatrixElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEComponentTransferElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFECompositeElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEConvolveMatrixElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEDiffuseLightingElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEDisplacementMapElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEDistantLightElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEDropShadowElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEGaussianBlurElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEImageElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEMergeNodeElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEMorphologyElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEOffsetElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFEPointLightElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFESpecularLightingElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFESpotLightElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFETileElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFETurbulenceElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFilterElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGFilterPrimitiveStandardAttributes:1
+    GHCJS.DOM.JSFFI.Generated.SVGFitToViewBox:1
+    GHCJS.DOM.JSFFI.Generated.SVGForeignObjectElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGGlyphRefElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGGradientElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGGraphicsElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGImageElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGLength:1
+    GHCJS.DOM.JSFFI.Generated.SVGLengthList:1
+    GHCJS.DOM.JSFFI.Generated.SVGLineElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGLinearGradientElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGMarkerElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGMaskElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGMatrix:1
+    GHCJS.DOM.JSFFI.Generated.SVGNumber:1
+    GHCJS.DOM.JSFFI.Generated.SVGNumberList:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSeg:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegArcAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegArcRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegCurvetoCubicAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegCurvetoCubicRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegCurvetoCubicSmoothAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegCurvetoCubicSmoothRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegCurvetoQuadraticAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegCurvetoQuadraticRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegCurvetoQuadraticSmoothAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegCurvetoQuadraticSmoothRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegLinetoAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegLinetoHorizontalAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegLinetoHorizontalRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegLinetoRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegLinetoVerticalAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegLinetoVerticalRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegList:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegMovetoAbs:1
+    GHCJS.DOM.JSFFI.Generated.SVGPathSegMovetoRel:1
+    GHCJS.DOM.JSFFI.Generated.SVGPatternElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGPoint: 1
+    GHCJS.DOM.JSFFI.Generated.SVGPointList:1
+    GHCJS.DOM.JSFFI.Generated.SVGPolygonElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGPolylineElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGPreserveAspectRatio:1
+    GHCJS.DOM.JSFFI.Generated.SVGRadialGradientElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGRect:  1
+    GHCJS.DOM.JSFFI.Generated.SVGRectElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGRenderingIntent:1
+    GHCJS.DOM.JSFFI.Generated.SVGSVGElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGScriptElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGStopElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGStringList:1
+    GHCJS.DOM.JSFFI.Generated.SVGStyleElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGTests: 1
+    GHCJS.DOM.JSFFI.Generated.SVGTextContentElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGTextPathElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGTextPositioningElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGTransform:1
+    GHCJS.DOM.JSFFI.Generated.SVGTransformList:1
+    GHCJS.DOM.JSFFI.Generated.SVGURIReference:1
+    GHCJS.DOM.JSFFI.Generated.SVGUnitTypes:1
+    GHCJS.DOM.JSFFI.Generated.SVGUseElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGViewElement:1
+    GHCJS.DOM.JSFFI.Generated.SVGViewSpec:1
+    GHCJS.DOM.JSFFI.Generated.SVGZoomAndPan:1
+    GHCJS.DOM.JSFFI.Generated.SVGZoomEvent:1
+    GHCJS.DOM.JSFFI.Generated.Screen:   1
+    GHCJS.DOM.JSFFI.Generated.ScriptProcessorNode:1
+    GHCJS.DOM.JSFFI.Generated.SecurityPolicyViolationEvent:1
+    GHCJS.DOM.JSFFI.Generated.Selection:1
+    GHCJS.DOM.JSFFI.Generated.ShadowRoot:1
+    GHCJS.DOM.JSFFI.Generated.SiteBoundCredential:1
+    GHCJS.DOM.JSFFI.Generated.Slotable: 1
+    GHCJS.DOM.JSFFI.Generated.SourceBuffer:1
+    GHCJS.DOM.JSFFI.Generated.SourceBufferList:1
+    GHCJS.DOM.JSFFI.Generated.SpeechSynthesis:1
+    GHCJS.DOM.JSFFI.Generated.SpeechSynthesisEvent:1
+    GHCJS.DOM.JSFFI.Generated.SpeechSynthesisUtterance:1
+    GHCJS.DOM.JSFFI.Generated.SpeechSynthesisVoice:1
+    GHCJS.DOM.JSFFI.Generated.StaticRange:1
+    GHCJS.DOM.JSFFI.Generated.Storage:  1
+    GHCJS.DOM.JSFFI.Generated.StorageErrorCallback:1
+    GHCJS.DOM.JSFFI.Generated.StorageEvent:1
+    GHCJS.DOM.JSFFI.Generated.StorageInfo:1
+    GHCJS.DOM.JSFFI.Generated.StorageQuota:1
+    GHCJS.DOM.JSFFI.Generated.StorageQuotaCallback:1
+    GHCJS.DOM.JSFFI.Generated.StorageUsageCallback:1
+    GHCJS.DOM.JSFFI.Generated.StringCallback:1
+    GHCJS.DOM.JSFFI.Generated.StyleMedia:1
+    GHCJS.DOM.JSFFI.Generated.StyleSheet:1
+    GHCJS.DOM.JSFFI.Generated.StyleSheetList:1
+    GHCJS.DOM.JSFFI.Generated.SubtleCrypto:1
+    GHCJS.DOM.JSFFI.Generated.Text:     1
+    GHCJS.DOM.JSFFI.Generated.TextDecoder:1
+    GHCJS.DOM.JSFFI.Generated.TextEncoder:1
+    GHCJS.DOM.JSFFI.Generated.TextEvent:1
+    GHCJS.DOM.JSFFI.Generated.TextMetrics:1
+    GHCJS.DOM.JSFFI.Generated.TextTrack:1
+    GHCJS.DOM.JSFFI.Generated.TextTrackCue:1
+    GHCJS.DOM.JSFFI.Generated.TextTrackCueList:1
+    GHCJS.DOM.JSFFI.Generated.TextTrackList:1
+    GHCJS.DOM.JSFFI.Generated.TimeRanges:1
+    GHCJS.DOM.JSFFI.Generated.Touch:    1
+    GHCJS.DOM.JSFFI.Generated.TouchEvent:1
+    GHCJS.DOM.JSFFI.Generated.TouchList:1
+    GHCJS.DOM.JSFFI.Generated.TrackEvent:1
+    GHCJS.DOM.JSFFI.Generated.TransitionEvent:1
+    GHCJS.DOM.JSFFI.Generated.TreeWalker:1
+    GHCJS.DOM.JSFFI.Generated.UIEvent:  1
+    GHCJS.DOM.JSFFI.Generated.URL:      1
+    GHCJS.DOM.JSFFI.Generated.URLSearchParams:1
+    GHCJS.DOM.JSFFI.Generated.UserMessageHandler:1
+    GHCJS.DOM.JSFFI.Generated.VTTCue:   1
+    GHCJS.DOM.JSFFI.Generated.VTTRegion:1
+    GHCJS.DOM.JSFFI.Generated.VTTRegionList:1
+    GHCJS.DOM.JSFFI.Generated.ValidityState:1
+    GHCJS.DOM.JSFFI.Generated.VideoPlaybackQuality:1
+    GHCJS.DOM.JSFFI.Generated.VideoTrack:1
+    GHCJS.DOM.JSFFI.Generated.VideoTrackList:1
+    GHCJS.DOM.JSFFI.Generated.VoidCallback:1
+    GHCJS.DOM.JSFFI.Generated.WaveShaperNode:1
+    GHCJS.DOM.JSFFI.Generated.WebGL2RenderingContext:1
+    GHCJS.DOM.JSFFI.Generated.WebGLActiveInfo:1
+    GHCJS.DOM.JSFFI.Generated.WebGLCompressedTextureATC:1
+    GHCJS.DOM.JSFFI.Generated.WebGLCompressedTexturePVRTC:1
+    GHCJS.DOM.JSFFI.Generated.WebGLCompressedTextureS3TC:1
+    GHCJS.DOM.JSFFI.Generated.WebGLContextEvent:1
+    GHCJS.DOM.JSFFI.Generated.WebGLDebugRendererInfo:1
+    GHCJS.DOM.JSFFI.Generated.WebGLDebugShaders:1
+    GHCJS.DOM.JSFFI.Generated.WebGLDepthTexture:1
+    GHCJS.DOM.JSFFI.Generated.WebGLDrawBuffers:1
+    GHCJS.DOM.JSFFI.Generated.WebGLLoseContext:1
+    GHCJS.DOM.JSFFI.Generated.WebGLRenderingContextBase:1
+    GHCJS.DOM.JSFFI.Generated.WebGLShaderPrecisionFormat:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUBuffer:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUCommandBuffer:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUCommandQueue:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUComputeCommandEncoder:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUDepthStencilDescriptor:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUDepthStencilState:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUDrawable:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUFunction:1
+    GHCJS.DOM.JSFFI.Generated.WebGPULibrary:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderCommandEncoder:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderPassAttachmentDescriptor:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderPassColorAttachmentDescriptor:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderPassDepthAttachmentDescriptor:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderPassDescriptor:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderPipelineColorAttachmentDescriptor:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderPipelineDescriptor:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderPipelineState:1
+    GHCJS.DOM.JSFFI.Generated.WebGPURenderingContext:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUTexture:1
+    GHCJS.DOM.JSFFI.Generated.WebGPUTextureDescriptor:1
+    GHCJS.DOM.JSFFI.Generated.WebKitAnimationEvent:1
+    GHCJS.DOM.JSFFI.Generated.WebKitCSSMatrix:1
+    GHCJS.DOM.JSFFI.Generated.WebKitCSSRegionRule:1
+    GHCJS.DOM.JSFFI.Generated.WebKitCSSViewportRule:1
+    GHCJS.DOM.JSFFI.Generated.WebKitMediaKeyError:1
+    GHCJS.DOM.JSFFI.Generated.WebKitMediaKeyMessageEvent:1
+    GHCJS.DOM.JSFFI.Generated.WebKitMediaKeyNeededEvent:1
+    GHCJS.DOM.JSFFI.Generated.WebKitMediaKeySession:1
+    GHCJS.DOM.JSFFI.Generated.WebKitMediaKeys:1
+    GHCJS.DOM.JSFFI.Generated.WebKitNamedFlow:1
+    GHCJS.DOM.JSFFI.Generated.WebKitNamespace:1
+    GHCJS.DOM.JSFFI.Generated.WebKitPlaybackTargetAvailabilityEvent:1
+    GHCJS.DOM.JSFFI.Generated.WebKitPoint:1
+    GHCJS.DOM.JSFFI.Generated.WebKitSubtleCrypto:1
+    GHCJS.DOM.JSFFI.Generated.WebKitTransitionEvent:1
+    GHCJS.DOM.JSFFI.Generated.WebSocket:1
+    GHCJS.DOM.JSFFI.Generated.WheelEvent:1
+    GHCJS.DOM.JSFFI.Generated.Window:   1
+    GHCJS.DOM.JSFFI.Generated.WindowEventHandlers:1
+    GHCJS.DOM.JSFFI.Generated.WindowOrWorkerGlobalScope:1
+    GHCJS.DOM.JSFFI.Generated.Worker:   1
+    GHCJS.DOM.JSFFI.Generated.WorkerGlobalScope:1
+    GHCJS.DOM.JSFFI.Generated.WorkerLocation:1
+    GHCJS.DOM.JSFFI.Generated.WorkerNavigator:1
+    GHCJS.DOM.JSFFI.Generated.WritableStream:1
+    GHCJS.DOM.JSFFI.Generated.XMLHttpRequest:1
+    GHCJS.DOM.JSFFI.Generated.XMLHttpRequestEventTarget:1
+    GHCJS.DOM.JSFFI.Generated.XMLHttpRequestProgressEvent:1
+    GHCJS.DOM.JSFFI.Generated.XMLSerializer:1
+    GHCJS.DOM.JSFFI.Generated.XPathEvaluator:1
+    GHCJS.DOM.JSFFI.Generated.XPathException:1
+    GHCJS.DOM.JSFFI.Generated.XPathExpression:1
+    GHCJS.DOM.JSFFI.Generated.XPathNSResolver:1
+    GHCJS.DOM.JSFFI.Generated.XPathResult:1
+    GHCJS.DOM.JSFFI.Generated.XSLTProcessor:1
+    GHCJS.DOM.JSFFI.Geolocation:        1
+    GHCJS.DOM.JSFFI.Navigator:          1
+    GHCJS.DOM.JSFFI.NavigatorUserMediaError:1
+    GHCJS.DOM.JSFFI.PositionError:      1
+    GHCJS.DOM.JSFFI.RTCPeerConnectionError:1
+    GHCJS.DOM.JSFFI.SQLError:           1
+    GHCJS.DOM.JSFFI.SQLTransaction:     1
+    GHCJS.DOM.JSFFI.SpeechGrammar:      1
+    GHCJS.DOM.JSFFI.SpeechRecognition:  1
+    GHCJS.DOM.JSFFI.SpeechRecognitionError:1
+    GHCJS.DOM.JSFFI.SpeechRecognitionEvent:1
+    GHCJS.DOM.JSFFI.Window:             1
+    GHCJS.DOM.JSFFI.XMLHttpRequest:     368535
+    GHCJS.DOM.Types:                    1
+
+ghcjs-prim-0.1.1.0-HZUIQ7BTQrzF5jVh07mbue
+    GHCJS.Prim:                         10225
+    GHCJS.Prim.Internal:                1
+    GHCJS.Prim.Internal.Build:          1
+
+hashable-1.3.5.0-6OQ8AF7BxUIJC2uGeto9JD
+    Data.Hashable:                      1
+    Data.Hashable.Class:                1
+    Data.Hashable.Generic:              1
+    Data.Hashable.Generic.Instances:    1
+    Data.Hashable.Imports:              1
+    Data.Hashable.Lifted:               1
+    Data.Hashable.LowLevel:             1
+
+haskell-src-exts-1.23.1-E46XVXkipvK1QffaMAgCvA
+    Language.Haskell.Exts:              1
+    Language.Haskell.Exts.Build:        1
+    Language.Haskell.Exts.Comments:     1
+    Language.Haskell.Exts.ExactPrint:   1
+    Language.Haskell.Exts.ExtScheme:    1
+    Language.Haskell.Exts.Extension:    1
+    Language.Haskell.Exts.Fixity:       1
+    Language.Haskell.Exts.InternalLexer:1
+    Language.Haskell.Exts.InternalParser:1
+    Language.Haskell.Exts.Lexer:        1
+    Language.Haskell.Exts.ParseMonad:   1
+    Language.Haskell.Exts.ParseSyntax:  1
+    Language.Haskell.Exts.ParseUtils:   1
+    Language.Haskell.Exts.Parser:       1
+    Language.Haskell.Exts.Pretty:       1
+    Language.Haskell.Exts.SrcLoc:       1
+    Language.Haskell.Exts.Syntax:       1
+    Language.Preprocessor.Unlit:        1
+
+haskell-src-meta-0.8.10-IcbrfrN0Yc93XnYTMg7Yxl
+    Language.Haskell.Meta:              1
+    Language.Haskell.Meta.Extensions:   1
+    Language.Haskell.Meta.Parse:        1
+    Language.Haskell.Meta.Syntax.Translate:1
+    Language.Haskell.Meta.THCompat:     1
+    Language.Haskell.Meta.Utils:        1
+
+indexed-traversable-0.1.2-GD8npio83CSFiz04J1mXkd
+    Data.Foldable.WithIndex:            1
+    Data.Functor.WithIndex:             1
+    Data.Traversable.WithIndex:         1
+    GhcExts:                            1
+    WithIndex:                          1
+
+indexed-traversable-instances-0.1.1.1-LvEDkxbyZx8CeLTfKJ3EOq
+    Data.Functor.WithIndex.Instances:   1
+
+integer-logarithms-1.0.3.1-IYkBdh7wKb2CHfnUySx2jj
+    GHC.Integer.Logarithms.Compat:      1
+    Math.NumberTheory.Logarithms:       1
+    Math.NumberTheory.Powers.Integer:   1
+    Math.NumberTheory.Powers.Natural:   1
+
+integer-wired-in
+    GHC.Integer:                        1
+    GHC.Integer.GMP.Internals:          1
+    GHC.Integer.Logarithms:             1
+    GHC.Integer.Logarithms.Internals:   89182
+    GHC.Integer.Type:                   27232
+
+jsaddle-0.9.8.2-DOc5JA9qWKc32sVbaacOyT
+    Language.Javascript.JSaddle:        1
+    Language.Javascript.JSaddle.Arguments:1
+    Language.Javascript.JSaddle.Classes:1
+    Language.Javascript.JSaddle.Classes.Internal:1
+    Language.Javascript.JSaddle.Evaluate:1
+    Language.Javascript.JSaddle.Exception:1
+    Language.Javascript.JSaddle.Helper: 1
+    Language.Javascript.JSaddle.Marshal.String:1
+    Language.Javascript.JSaddle.Monad:  1
+    Language.Javascript.JSaddle.Object: 1
+    Language.Javascript.JSaddle.Properties:1
+    Language.Javascript.JSaddle.Run:    1
+    Language.Javascript.JSaddle.Run.Files:1
+    Language.Javascript.JSaddle.String: 1
+    Language.Javascript.JSaddle.Types:  1
+    Language.Javascript.JSaddle.Value:  1
+
+kan-extensions-5.2.5-EC5Ak81elAI9Q64zbtgbBz
+    Control.Comonad.Density:            1
+    Control.Monad.Co:                   1
+    Control.Monad.Codensity:            1
+    Data.Functor.Contravariant.Coyoneda:1
+    Data.Functor.Contravariant.Day:     1
+    Data.Functor.Contravariant.Yoneda:  1
+    Data.Functor.Coyoneda:              1
+    Data.Functor.Day:                   1
+    Data.Functor.Day.Curried:           1
+    Data.Functor.Invariant.Day:         1
+    Data.Functor.Kan.Lan:               1
+    Data.Functor.Kan.Ran:               1
+    Data.Functor.Yoneda:                1
+
+keycode-0.2.2-Czn6b09jBhsByMfkX7XMG7
+    Web.KeyCode:                        1
+
+lens-5.0.1-GeIFvbyz2Cy6eIMcGBgWDo
+    Control.Exception.Lens:             1
+    Control.Lens:                       11648
+    Control.Lens.At:                    1
+    Control.Lens.Combinators:           1
+    Control.Lens.Cons:                  1
+    Control.Lens.Each:                  1
+    Control.Lens.Empty:                 1
+    Control.Lens.Equality:              1
+    Control.Lens.Extras:                1
+    Control.Lens.Fold:                  1
+    Control.Lens.Getter:                1
+    Control.Lens.Indexed:               1
+    Control.Lens.Internal:              1
+    Control.Lens.Internal.Bazaar:       1
+    Control.Lens.Internal.ByteString:   1
+    Control.Lens.Internal.CTypes:       1
+    Control.Lens.Internal.Coerce:       1
+    Control.Lens.Internal.Context:      1
+    Control.Lens.Internal.Deque:        1
+    Control.Lens.Internal.Exception:    1
+    Control.Lens.Internal.FieldTH:      1
+    Control.Lens.Internal.Fold:         1
+    Control.Lens.Internal.Getter:       1
+    Control.Lens.Internal.Indexed:      1
+    Control.Lens.Internal.Instances:    1
+    Control.Lens.Internal.Iso:          1
+    Control.Lens.Internal.Level:        1
+    Control.Lens.Internal.List:         1
+    Control.Lens.Internal.Magma:        1
+    Control.Lens.Internal.Prelude:      1
+    Control.Lens.Internal.Prism:        1
+    Control.Lens.Internal.PrismTH:      1
+    Control.Lens.Internal.Profunctor:   1
+    Control.Lens.Internal.Review:       1
+    Control.Lens.Internal.Setter:       1
+    Control.Lens.Internal.TH:           1
+    Control.Lens.Internal.Zoom:         1
+    Control.Lens.Iso:                   1
+    Control.Lens.Lens:                  1
+    Control.Lens.Level:                 1
+    Control.Lens.Operators:             1
+    Control.Lens.Plated:                1
+    Control.Lens.Prism:                 1
+    Control.Lens.Profunctor:            1
+    Control.Lens.Reified:               1
+    Control.Lens.Review:                1
+    Control.Lens.Setter:                1
+    Control.Lens.TH:                    1
+    Control.Lens.Traversal:             1
+    Control.Lens.Tuple:                 1
+    Control.Lens.Type:                  1
+    Control.Lens.Unsound:               1
+    Control.Lens.Wrapped:               1
+    Control.Lens.Zoom:                  1
+    Control.Monad.Error.Lens:           1
+    Control.Parallel.Strategies.Lens:   1
+    Control.Seq.Lens:                   1
+    Data.Array.Lens:                    1
+    Data.Bits.Lens:                     1
+    Data.ByteString.Lazy.Lens:          1
+    Data.ByteString.Lens:               1
+    Data.ByteString.Strict.Lens:        1
+    Data.Complex.Lens:                  1
+    Data.Data.Lens:                     1
+    Data.Dynamic.Lens:                  1
+    Data.HashSet.Lens:                  1
+    Data.IntSet.Lens:                   1
+    Data.List.Lens:                     1
+    Data.Map.Lens:                      1
+    Data.Sequence.Lens:                 1
+    Data.Set.Lens:                      1
+    Data.Text.Lazy.Lens:                1
+    Data.Text.Lens:                     1
+    Data.Text.Strict.Lens:              1
+    Data.Tree.Lens:                     1
+    Data.Typeable.Lens:                 1
+    Data.Vector.Generic.Lens:           1
+    Data.Vector.Lens:                   1
+    GHC.Generics.Lens:                  1
+    Language.Haskell.TH.Lens:           1
+    Numeric.Lens:                       1
+    Numeric.Natural.Lens:               1
+    Paths_lens:                         1
+    System.Exit.Lens:                   1
+    System.FilePath.Lens:               1
+    System.IO.Error.Lens:               1
+
+main
+    Main:                               93449
+    MyBackend:                          1
+
+mmorph-1.1.5-3eFwXVzVNnI3F3vNStNxQK
+    Control.Monad.Morph:                1
+    Control.Monad.Trans.Compose:        1
+
+monad-control-1.0.3.1-83RwHpHdTGiAyC7KwNvLPq
+    Control.Monad.Trans.Control:        1
+
+monoidal-containers-0.6.3.0-6rLebHrDqTYAkaAYGmVPO2
+    Data.HashMap.Monoidal:              1
+    Data.IntMap.Monoidal:               1
+    Data.IntMap.Monoidal.Strict:        1
+    Data.Map.Monoidal:                  1
+    Data.Map.Monoidal.Strict:           1
+
+mtl-2.2.2-IGSoKUSGylEE6TI31vkuMe
+    Control.Monad.Cont:                 1
+    Control.Monad.Cont.Class:           1
+    Control.Monad.Error:                1
+    Control.Monad.Error.Class:          1
+    Control.Monad.Except:               1
+    Control.Monad.Identity:             1
+    Control.Monad.List:                 1
+    Control.Monad.RWS:                  1
+    Control.Monad.RWS.Class:            1
+    Control.Monad.RWS.Lazy:             1
+    Control.Monad.RWS.Strict:           1
+    Control.Monad.Reader:               1
+    Control.Monad.Reader.Class:         1
+    Control.Monad.State:                1
+    Control.Monad.State.Class:          1
+    Control.Monad.State.Lazy:           1
+    Control.Monad.State.Strict:         1
+    Control.Monad.Trans:                1
+    Control.Monad.Writer:               1
+    Control.Monad.Writer.Class:         1
+    Control.Monad.Writer.Lazy:          1
+    Control.Monad.Writer.Strict:        1
+
+network-uri-2.6.4.1-EgPHBHjrSGRE0KOBxOehBu
+    Network.URI:                        1
+    Network.URI.Lens:                   1
+    Network.URI.Static:                 1
+
+newtype-0.2.2.0-Ia8FPsiJkZDE8gE7xezXZ1
+    Control.Newtype:                    1
+
+old-locale-1.0.0.7-6DH3DZNjGWjGbG4IYFPAQu
+    System.Locale:                      1
+
+parsec-3.1.14.0-GuoXYxAYGGZK6VJd1NSY5K
+    Text.Parsec:                        1
+    Text.Parsec.ByteString:             1
+    Text.Parsec.ByteString.Lazy:        1
+    Text.Parsec.Char:                   1
+    Text.Parsec.Combinator:             1
+    Text.Parsec.Error:                  1
+    Text.Parsec.Expr:                   1
+    Text.Parsec.Language:               1
+    Text.Parsec.Perm:                   1
+    Text.Parsec.Pos:                    1
+    Text.Parsec.Prim:                   1
+    Text.Parsec.String:                 1
+    Text.Parsec.Text:                   1
+    Text.Parsec.Text.Lazy:              1
+    Text.Parsec.Token:                  1
+    Text.ParserCombinators.Parsec:      1
+    Text.ParserCombinators.Parsec.Char: 1
+    Text.ParserCombinators.Parsec.Combinator:1
+    Text.ParserCombinators.Parsec.Error:1
+    Text.ParserCombinators.Parsec.Expr: 1
+    Text.ParserCombinators.Parsec.Language:1
+    Text.ParserCombinators.Parsec.Perm: 1
+    Text.ParserCombinators.Parsec.Pos:  1
+    Text.ParserCombinators.Parsec.Prim: 1
+    Text.ParserCombinators.Parsec.Token:48118
+
+patch-0.0.8.2-xkFqRtYG48CECJTIsI2Tf
+    Data.Functor.Misc:                  1
+    Data.Monoid.DecidablyEmpty:         1
+    Data.Patch:                         788
+    Data.Patch.Class:                   43535
+    Data.Patch.DMap:                    154254
+    Data.Patch.DMapWithMove:            44899
+    Data.Patch.IntMap:                  6368
+    Data.Patch.Map:                     1636
+    Data.Patch.MapWithMove:             22485
+    Data.Patch.MapWithPatchingMove:     1
+    Data.Patch.PatchOrReplacement:      1
+    Data.Semigroup.Additive:            1
+
+pretty-1.1.3.6-GAhFbJ44WwF1NMuTt9nXuU
+    Text.PrettyPrint:                   1
+    Text.PrettyPrint.Annotated:         1
+    Text.PrettyPrint.Annotated.HughesPJ:1
+    Text.PrettyPrint.Annotated.HughesPJClass:1
+    Text.PrettyPrint.HughesPJ:          1
+    Text.PrettyPrint.HughesPJClass:     1
+
+prim-uniq-0.2-BgbNcnYVkS1LlVFtj6Kmrp
+    Data.Unique.Prim:                   1
+    Data.Unique.Tag:                    1
+    Unsafe.Unique.Prim:                 1
+    Unsafe.Unique.Tag:                  2799
+
+primitive-0.7.3.0-LReQyhejKi49H74D23JRkG
+    Control.Monad.Primitive:            1
+    Data.Primitive:                     1
+    Data.Primitive.Array:               1
+    Data.Primitive.ByteArray:           1
+    Data.Primitive.Internal.Operations: 1
+    Data.Primitive.MVar:                1
+    Data.Primitive.MachDeps:            1
+    Data.Primitive.MutVar:              1
+    Data.Primitive.PrimArray:           1
+    Data.Primitive.Ptr:                 1
+    Data.Primitive.SmallArray:          1
+    Data.Primitive.Types:               1
+
+profunctors-5.6.2-5SxRgU7SWKJLS9EgQ0NK1D
+    Data.Profunctor:                    1
+    Data.Profunctor.Adjunction:         1
+    Data.Profunctor.Cayley:             1
+    Data.Profunctor.Choice:             1
+    Data.Profunctor.Closed:             1
+    Data.Profunctor.Composition:        1
+    Data.Profunctor.Mapping:            1
+    Data.Profunctor.Monad:              1
+    Data.Profunctor.Ran:                1
+    Data.Profunctor.Rep:                1
+    Data.Profunctor.Sieve:              1
+    Data.Profunctor.Strong:             1
+    Data.Profunctor.Traversing:         1
+    Data.Profunctor.Types:              1
+    Data.Profunctor.Unsafe:             1
+    Data.Profunctor.Yoneda:             1
+
+random-1.2.1.1-GdOCmgKIL7EDQkfgpQqW9R
+    System.Random:                      1
+    System.Random.GFinite:              1
+    System.Random.Internal:             1
+    System.Random.Stateful:             7680
+
+ref-tf-0.5.0.1-7guyMWOh5nf1ozHjvkTku5
+    Control.Monad.Ref:                  1
+
+reflection-2.1.6-2geGEngscoyF11gJEzOGky
+    Data.Reflection:                    7717
+
+reflex-0.9.2.0-H5N7cDK9stQEp1UcDEHTtO
+    Control.Monad.ReaderIO:             1
+    Data.AppendMap:                     19308
+    Data.FastMutableIntMap:             1
+    Data.FastWeakBag:                   5328
+    Data.Map.Misc:                      4678
+    Data.WeakBag:                       1
+    Reflex:                             21496
+    Reflex.Adjustable.Class:            1
+    Reflex.BehaviorWriter.Base:         1
+    Reflex.BehaviorWriter.Class:        200081
+    Reflex.Class:                       1
+    Reflex.Collection:                  30378
+    Reflex.Dynamic:                     1
+    Reflex.Dynamic.TH:                  1
+    Reflex.Dynamic.Uniq:                1
+    Reflex.DynamicWriter:               1
+    Reflex.DynamicWriter.Base:          1
+    Reflex.DynamicWriter.Class:         1
+    Reflex.EventWriter:                 1
+    Reflex.EventWriter.Base:            1
+    Reflex.EventWriter.Class:           3384
+    Reflex.FastWeak:                    1
+    Reflex.FunctorMaybe:                16191
+    Reflex.Host.Class:                  1
+    Reflex.Host.Headless:               1
+    Reflex.Network:                     2124
+    Reflex.NotReady.Class:              1109395
+    Reflex.PerformEvent.Base:           25801
+    Reflex.PerformEvent.Class:          370882
+    Reflex.PostBuild.Base:              4534
+    Reflex.PostBuild.Class:             1
+    Reflex.Profiled:                    1
+    Reflex.Pure:                        1
+    Reflex.Query.Base:                  1
+    Reflex.Query.Class:                 1
+    Reflex.Requester.Base:              1257795
+    Reflex.Requester.Base.Internal:     1
+    Reflex.Requester.Class:             1
+    Reflex.Spider:                      5085597
+    Reflex.Spider.Internal:             1
+    Reflex.Time:                        165007
+    Reflex.TriggerEvent.Base:           5369
+    Reflex.TriggerEvent.Class:          1
+    Reflex.Widget.Basic:                1
+    Reflex.Workflow:                    1
+
+reflex-dom-0.6.3.1-CFudMpsRYLQ1FGN5ho4SWm
+    Reflex.Dom:                         555
+    Reflex.Dom.Internal:                1
+    Reflex.Dom.Location.Platform:       1
+
+reflex-dom-core-0.8.0.0-BVBpLyoKjcc3VoNa9MZmjI
+    Foreign.JavaScript.Internal.Utils:  1
+    Foreign.JavaScript.Orphans:         207848
+    Foreign.JavaScript.TH:              1
+    Foreign.JavaScript.Utils:           53977
+    Reflex.Dom.Builder.Class:           265057
+    Reflex.Dom.Builder.Class.Events:    1
+    Reflex.Dom.Builder.Class.TH:        1
+    Reflex.Dom.Builder.Hydratable:      9929843
+    Reflex.Dom.Builder.Immediate:       1
+    Reflex.Dom.Builder.InputDisabled:   1
+    Reflex.Dom.Builder.Static:          2669
+    Reflex.Dom.Class:                   1
+    Reflex.Dom.Core:                    1
+    Reflex.Dom.Location:                690207
+    Reflex.Dom.Main:                    1
+    Reflex.Dom.Modals.Class:            4714
+    Reflex.Dom.Old:                     1
+    Reflex.Dom.Prerender:               1
+    Reflex.Dom.Time:                    1
+    Reflex.Dom.WebSocket:               1
+    Reflex.Dom.WebSocket.Foreign:       1
+    Reflex.Dom.WebSocket.Query:         1
+    Reflex.Dom.Widget:                  418031
+    Reflex.Dom.Widget.Basic:            143935
+    Reflex.Dom.Widget.Input:            1
+    Reflex.Dom.Widget.Lazy:             1
+    Reflex.Dom.Widget.Resize:           1
+    Reflex.Dom.Xhr:                     1
+    Reflex.Dom.Xhr.Exception:           1
+    Reflex.Dom.Xhr.Foreign:             1
+    Reflex.Dom.Xhr.FormData:            1
+    Reflex.Dom.Xhr.ResponseType:        1
+
+scientific-0.3.7.0-5mgRNvjYRWv3mPytIhdHjG
+    Data.ByteString.Builder.Scientific: 1
+    Data.Scientific:                    1
+    Data.Text.Lazy.Builder.Scientific:  1
+    GHC.Integer.Compat:                 1
+    Utils:                              1
+
+semialign-1.2.0.1-3lRV8p74IjdCPCrrCZHX18
+    Data.Align:                         1
+    Data.Crosswalk:                     1
+    Data.Semialign:                     1
+    Data.Semialign.Indexed:             24336
+    Data.Semialign.Internal:            1
+    Data.Zip:                           1
+
+semigroupoids-5.3.7-ExpVh30JA1vHU0pUN1D1KP
+    Data.Bifunctor.Apply:               1
+    Data.Functor.Alt:                   1
+    Data.Functor.Apply:                 1
+    Data.Functor.Bind:                  1
+    Data.Functor.Bind.Class:            1
+    Data.Functor.Bind.Trans:            1
+    Data.Functor.Contravariant.Conclude:1
+    Data.Functor.Contravariant.Decide:  1
+    Data.Functor.Contravariant.Divise:  1
+    Data.Functor.Extend:                1
+    Data.Functor.Plus:                  1
+    Data.Groupoid:                      1
+    Data.Isomorphism:                   1
+    Data.Semigroup.Bifoldable:          1
+    Data.Semigroup.Bitraversable:       1
+    Data.Semigroup.Foldable:            1
+    Data.Semigroup.Foldable.Class:      1
+    Data.Semigroup.Traversable:         1
+    Data.Semigroup.Traversable.Class:   1
+    Data.Semigroupoid:                  1
+    Data.Semigroupoid.Categorical:      1
+    Data.Semigroupoid.Dual:             1
+    Data.Semigroupoid.Ob:               1
+    Data.Semigroupoid.Static:           1
+    Data.Traversable.Instances:         1
+    Semigroupoids.Do:                   1
+    Semigroupoids.Internal:             1
+
+some-1.0.4-5SkKrRTQnH4GFDlQwONkme
+    Data.GADT.Compare:                  1
+    Data.GADT.DeepSeq:                  7860
+    Data.GADT.Internal:                 1
+    Data.GADT.Show:                     1
+    Data.Some:                          1
+    Data.Some.Church:                   1
+    Data.Some.GADT:                     20700
+    Data.Some.Newtype:                  1
+
+splitmix-0.1.0.4-IKx5gy6hO9E2B3ZCQD9inF
+    Data.Bits.Compat:                   1
+    System.Random.SplitMix:             1
+    System.Random.SplitMix.Init:        1
+    System.Random.SplitMix32:           1
+
+stm-2.5.1.0-9V1mDypaSip90lOBcvgOVT
+    Control.Concurrent.STM:             1
+    Control.Concurrent.STM.TArray:      1
+    Control.Concurrent.STM.TBQueue:     1
+    Control.Concurrent.STM.TChan:       1
+    Control.Concurrent.STM.TMVar:       1
+    Control.Concurrent.STM.TQueue:      1
+    Control.Concurrent.STM.TSem:        1
+    Control.Concurrent.STM.TVar:        1
+    Control.Monad.STM:                  1
+    Control.Sequential.STM:             1
+
+strict-0.4.0.1-CCCWae0XlFU2CCPFxv8TCX
+    Data.Strict:                        1
+    Data.Strict.Classes:                1
+    Data.Strict.Either:                 1
+    Data.Strict.Maybe:                  1
+    Data.Strict.These:                  1
+    Data.Strict.Tuple:                  1
+    System.IO.Strict:                   1
+
+syb-0.7.2.1-JaBkmTMa5x9tmgIwgsd4G
+    Data.Generics:                      1
+    Data.Generics.Aliases:              1
+    Data.Generics.Basics:               1
+    Data.Generics.Builders:             1
+    Data.Generics.Instances:            1
+    Data.Generics.Schemes:              1
+    Data.Generics.Text:                 1
+    Data.Generics.Twins:                1
+    Generics.SYB:                       1
+    Generics.SYB.Aliases:               1
+    Generics.SYB.Basics:                1
+    Generics.SYB.Builders:              1
+    Generics.SYB.Instances:             1
+    Generics.SYB.Schemes:               1
+    Generics.SYB.Text:                  1
+    Generics.SYB.Twins:                 1
+
+tagged-0.8.6.1-AEMMPBEbqKx4fRL5Pi5doc
+    Data.Proxy.TH:                      1
+    Data.Tagged:                        1
+
+template-haskell
+    Language.Haskell.TH:                1
+    Language.Haskell.TH.LanguageExtensions:1
+    Language.Haskell.TH.Lib:            1
+    Language.Haskell.TH.Lib.Internal:   1
+    Language.Haskell.TH.Lib.Map:        1
+    Language.Haskell.TH.Ppr:            1
+    Language.Haskell.TH.PprLib:         1
+    Language.Haskell.TH.Quote:          1
+    Language.Haskell.TH.Syntax:         1
+
+text-1.2.4.1-6uG5rVV50DlG3V1Irt2qJZ
+    Data.JSString.Text:                 23451
+    Data.Text:                          1
+    Data.Text.Array:                    1
+    Data.Text.Encoding:                 1
+    Data.Text.Encoding.Error:           1
+    Data.Text.IO:                       1
+    Data.Text.Internal:                 1
+    Data.Text.Internal.Builder:         1
+    Data.Text.Internal.Builder.Functions:1
+    Data.Text.Internal.Builder.Int.Digits:1
+    Data.Text.Internal.Builder.RealFloat.Functions:1
+    Data.Text.Internal.ByteStringCompat:1
+    Data.Text.Internal.Encoding.Fusion: 1
+    Data.Text.Internal.Encoding.Fusion.Common:1
+    Data.Text.Internal.Encoding.Utf16:  1
+    Data.Text.Internal.Encoding.Utf32:  1
+    Data.Text.Internal.Encoding.Utf8:   1
+    Data.Text.Internal.Functions:       1
+    Data.Text.Internal.Fusion:          1
+    Data.Text.Internal.Fusion.CaseMapping:1
+    Data.Text.Internal.Fusion.Common:   1
+    Data.Text.Internal.Fusion.Size:     1
+    Data.Text.Internal.Fusion.Types:    1
+    Data.Text.Internal.IO:              1
+    Data.Text.Internal.Lazy:            1
+    Data.Text.Internal.Lazy.Encoding.Fusion:1
+    Data.Text.Internal.Lazy.Fusion:     1
+    Data.Text.Internal.Lazy.Search:     1
+    Data.Text.Internal.Private:         1
+    Data.Text.Internal.Read:            1
+    Data.Text.Internal.Unsafe:          1
+    Data.Text.Internal.Unsafe.Char:     1
+    Data.Text.Internal.Unsafe.Shift:    1
+    Data.Text.Lazy:                     1
+    Data.Text.Lazy.Builder:             1
+    Data.Text.Lazy.Builder.Int:         1
+    Data.Text.Lazy.Builder.RealFloat:   1
+    Data.Text.Lazy.Encoding:            1
+    Data.Text.Lazy.IO:                  1
+    Data.Text.Lazy.Internal:            1
+    Data.Text.Read:                     1
+    Data.Text.Unsafe:                   1
+
+text-short-0.1.5-83tql5UYbdMEs8roEduy7C
+    Data.Text.Short:                    1
+    Data.Text.Short.Internal:           1
+    Data.Text.Short.Partial:            1
+    Data.Text.Short.Unsafe:             1
+    PrimOps:                            1
+
+th-abstraction-0.4.3.0-5KnBYXhO4rl9iydQrA0x5u
+    Language.Haskell.TH.Datatype:       1
+    Language.Haskell.TH.Datatype.Internal:1
+    Language.Haskell.TH.Datatype.TyVarBndr:1
+
+these-1.1.1.1-BPrWGiow4Go4C9rwUD8EPD
+    Data.Functor.These:                 1523
+    Data.These:                         1
+    Data.These.Combinators:             1
+
+time-1.9.3-3RdsewIylHjEX08tJ1SRQd
+    Data.Format:                        1
+    Data.Time:                          1
+    Data.Time.Calendar:                 1
+    Data.Time.Calendar.CalendarDiffDays:1
+    Data.Time.Calendar.Days:            1
+    Data.Time.Calendar.Easter:          1
+    Data.Time.Calendar.Gregorian:       1
+    Data.Time.Calendar.Julian:          1
+    Data.Time.Calendar.JulianYearDay:   1
+    Data.Time.Calendar.MonthDay:        1
+    Data.Time.Calendar.OrdinalDate:     1
+    Data.Time.Calendar.Private:         1
+    Data.Time.Calendar.Week:            1
+    Data.Time.Calendar.WeekDate:        1
+    Data.Time.Clock:                    1
+    Data.Time.Clock.Internal.AbsoluteTime:1
+    Data.Time.Clock.Internal.CTimespec: 1
+    Data.Time.Clock.Internal.CTimeval:  1
+    Data.Time.Clock.Internal.DiffTime:  1
+    Data.Time.Clock.Internal.NominalDiffTime:1
+    Data.Time.Clock.Internal.POSIXTime: 1
+    Data.Time.Clock.Internal.SystemTime:1
+    Data.Time.Clock.Internal.UTCDiff:   1
+    Data.Time.Clock.Internal.UTCTime:   1
+    Data.Time.Clock.Internal.UniversalTime:1
+    Data.Time.Clock.POSIX:              1
+    Data.Time.Clock.System:             1
+    Data.Time.Clock.TAI:                1
+    Data.Time.Format:                   1
+    Data.Time.Format.Format.Class:      1
+    Data.Time.Format.Format.Instances:  1
+    Data.Time.Format.ISO8601:           1
+    Data.Time.Format.Internal:          1
+    Data.Time.Format.Locale:            1
+    Data.Time.Format.Parse:             1
+    Data.Time.Format.Parse.Class:       1
+    Data.Time.Format.Parse.Instances:   1
+    Data.Time.LocalTime:                1
+    Data.Time.LocalTime.Internal.CalendarDiffTime:1
+    Data.Time.LocalTime.Internal.LocalTime:1
+    Data.Time.LocalTime.Internal.TimeOfDay:1
+    Data.Time.LocalTime.Internal.TimeZone:1
+    Data.Time.LocalTime.Internal.ZonedTime:1
+
+time-compat-1.9.6.1-Ic9heUN7tt72jqMeiIVtiA
+    Data.Format:                        1
+    Data.Time.Calendar.Compat:          1
+    Data.Time.Calendar.Easter.Compat:   1
+    Data.Time.Calendar.Julian.Compat:   1
+    Data.Time.Calendar.Month.Compat:    1
+    Data.Time.Calendar.MonthDay.Compat: 1
+    Data.Time.Calendar.OrdinalDate.Compat:1
+    Data.Time.Calendar.Private:         1
+    Data.Time.Calendar.Quarter.Compat:  1
+    Data.Time.Calendar.Types:           1
+    Data.Time.Calendar.WeekDate.Compat: 1
+    Data.Time.Clock.Compat:             1
+    Data.Time.Clock.POSIX.Compat:       1
+    Data.Time.Clock.System.Compat:      1
+    Data.Time.Clock.TAI.Compat:         1
+    Data.Time.Compat:                   1
+    Data.Time.Format.Compat:            1
+    Data.Time.Format.ISO8601.Compat:    1
+    Data.Time.LocalTime.Compat:         1
+    Data.Time.Orphans:                  1
+
+transformers-0.5.6.2-FuVVxe7sxd9Djwd0OcZNKG
+    Control.Applicative.Backwards:      1
+    Control.Applicative.Lift:           1
+    Control.Monad.Signatures:           1
+    Control.Monad.Trans.Accum:          1
+    Control.Monad.Trans.Class:          1
+    Control.Monad.Trans.Cont:           1
+    Control.Monad.Trans.Error:          1
+    Control.Monad.Trans.Except:         1
+    Control.Monad.Trans.Identity:       1
+    Control.Monad.Trans.List:           1
+    Control.Monad.Trans.Maybe:          1
+    Control.Monad.Trans.RWS:            1
+    Control.Monad.Trans.RWS.CPS:        1
+    Control.Monad.Trans.RWS.Lazy:       1
+    Control.Monad.Trans.RWS.Strict:     62772
+    Control.Monad.Trans.Reader:         1
+    Control.Monad.Trans.Select:         1
+    Control.Monad.Trans.State:          1
+    Control.Monad.Trans.State.Lazy:     40916
+    Control.Monad.Trans.State.Strict:   1
+    Control.Monad.Trans.Writer:         1
+    Control.Monad.Trans.Writer.CPS:     1
+    Control.Monad.Trans.Writer.Lazy:    1
+    Control.Monad.Trans.Writer.Strict:  1
+    Data.Functor.Constant:              1
+    Data.Functor.Reverse:               1
+
+transformers-base-0.4.6-5vzvUNQkjWl5rKYpKtEujR
+    Control.Monad.Base:                 1
+
+transformers-compat-0.6.6-JIDysxDx5RHGzGmif9zRu
+    Control.Monad.Trans.Instances:      1
+    Data.Functor.Classes.Generic:       1
+    Data.Functor.Classes.Generic.Internal:1
+    Paths_transformers_compat:          1
+
+type-equality-1-MnU7ikubviHyq0hfOcnDO
+    Data.Type.Equality.Hetero:          1
+
+unbounded-delays-0.1.1.1-BwsGS8LWyIuJ326RAKjQ5K
+    Control.Concurrent.Thread.Delay:    1
+    Control.Concurrent.Timeout:         1
+
+unordered-containers-0.2.17.0-AFrF27z0nr9EWVUGMShZGS
+    Data.HashMap.Internal:              1
+    Data.HashMap.Internal.Array:        1
+    Data.HashMap.Internal.List:         1
+    Data.HashMap.Internal.Strict:       1
+    Data.HashMap.Lazy:                  1
+    Data.HashMap.Strict:                1
+    Data.HashSet:                       1
+    Data.HashSet.Internal:              1
+
+uuid-types-1.0.5-3IW8DmCgl8oIpz1iDmHBqE
+    Data.UUID.Types:                    1
+    Data.UUID.Types.Internal:           1
+    Data.UUID.Types.Internal.Builder:   1
+
+vector-0.12.3.1-Jn822ltAQMG9EAuGGatnyM
+    Data.Vector:                        1
+    Data.Vector.Fusion.Bundle:          1
+    Data.Vector.Fusion.Bundle.Monadic:  1
+    Data.Vector.Fusion.Bundle.Size:     1
+    Data.Vector.Fusion.Stream.Monadic:  1
+    Data.Vector.Fusion.Util:            1
+    Data.Vector.Generic:                1
+    Data.Vector.Generic.Base:           1
+    Data.Vector.Generic.Mutable:        1
+    Data.Vector.Generic.Mutable.Base:   1
+    Data.Vector.Generic.New:            1
+    Data.Vector.Internal.Check:         1
+    Data.Vector.Mutable:                1
+    Data.Vector.Primitive:              1
+    Data.Vector.Primitive.Mutable:      1
+    Data.Vector.Storable:               1
+    Data.Vector.Storable.Internal:      1
+    Data.Vector.Storable.Mutable:       1
+    Data.Vector.Unboxed:                1
+    Data.Vector.Unboxed.Base:           1
+    Data.Vector.Unboxed.Mutable:        1
+
+witherable-0.4.2-7IW33CuC4SlBCxRU6x2Mh6
+    Data.Witherable:                    1
+    Witherable:                         1
+
+zenc-0.1.2-7YgksDoZczjIPnTbRXIQpd
+    Text.Encoding.Z:                    217866
+
+
+
+packed metadata: 857907
+
