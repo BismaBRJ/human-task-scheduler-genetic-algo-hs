@@ -18,7 +18,7 @@ Try it: <https://bismabrj.github.io/human-task-scheduler-genetic-algo-hs/>
 
 ## Offline usage
 
-Download the "webapp" folder of this repository, and open `index.html` (leave all other files untouched).
+Download the "docs" folder of this repository, and open `index.html` (leave all other files untouched).
 
 This web app is a standalone static webpage, so you can put it anywhere you like.
 
@@ -66,6 +66,6 @@ This web app is a standalone static webpage, so you can put it anywhere you like
 
     Wait for a few minutes, at most 10 (ten) minutes perhaps. A new folder will be created, one of its files being `index.html`.
     
-    This new folder, in fact, is the same "webapp" folder of this repo, so there you have it!
+    This new folder, in fact, is the same "docs" folder of this repo, so there you have it!
 
 **Note:** suppose you deleted that new, compiled folder. You'll only need to repeat steps 5 and 6 if you want it back. Unless, of course, if you also uninstalled any of the Haskell stuff...
