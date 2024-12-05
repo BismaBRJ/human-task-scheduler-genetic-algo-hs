@@ -26,9 +26,9 @@ This web app is a standalone static webpage, so you can put it anywhere you like
 
 ### Required installations
 
-1. Install Haskell, such as by using `GHCup`: <https://www.haskell.org/downloads/>
+1. Install Haskell, such as by using `GHCup`, which may include installing `cabal` etc: <https://www.haskell.org/downloads/>
 
-    You may need about 6--10 GB or more for this.
+    You may need about 5 (five) GB or more for this.
 
 2. Install the [Nix package manager](https://github.com/NixOS/nix) (no need to install the Nix operating system).
 
@@ -36,7 +36,7 @@ This web app is a standalone static webpage, so you can put it anywhere you like
 
 3. Install Reflx-DOM via the Nix package manager, specifically by installing [Reflex Platform](https://github.com/reflex-frp/reflex-platform).
 
-    Make sure to activate the nix caches as instructed so it would take at most a couple of hours rather than at least an entire day, and so that it wouldn't take up more space with all the intermediate compilation files. Even then, you will still need at least 20 GB of disk space free.
+    Make sure to activate the nix caches as instructed so it would take at most a couple of hours rather than at least an entire day, and so that it wouldn't take up more space with all the intermediate compilation files. Even then, you will still need at least 20 (twenty) GB of disk space free.
 
     **Note:** as of the time of writing this, Reflex Platform might not be supported on Windows yet. Feel free to try another Reflex-DOM setup such as [Obelisk](https://github.com/obsidiansystems/obelisk), at your own risk (of headaches).
 
@@ -52,9 +52,9 @@ This web app is a standalone static webpage, so you can put it anywhere you like
     nix-shell
     ```
 
-    It may be that you haven't fully installed Reflex Platform by this point, and if that's the case, it may take a couple of hours and it will take up about 20 GB of disk space in total, for real this time.
+    It may be that you haven't fully installed Reflex Platform by this point (telltale sign: it hasn't taken up 20 GB), and if that's the case, this command may take a couple of hours and it *will* take up about 20 GB of disk space in total, for real this time.
 
-    If however you already have Reflex Platform fully installed before running the above command, it should only take a few minutes at most and won't actually install anything much extra (despite the alarming "unpacking from GitHub" messages).
+    If however you already have Reflex Platform fully installed before running the above command, or if you already ran the command before (not your first time), it should only take a few minutes at most and won't actually install anything much extra (despite the alarming "unpacking from GitHub" messages).
 
 6. Run the following command:
 
@@ -69,3 +69,13 @@ This web app is a standalone static webpage, so you can put it anywhere you like
     This new folder, in fact, is the same "docs" folder of this repo, so there you have it!
 
 **Note:** suppose you deleted that new, compiled folder. You'll only need to repeat steps 5 and 6 if you want it back. Unless, of course, if you also uninstalled any of the Haskell stuff...
+
+## Learning Reflex-DOM
+
+Here are some links I found potentially helpful:
+
+- <https://github.com/hansroland/reflex-dom-inbits/blob/master/tutorial.md>
+
+- <https://github.com/reflex-frp/reflex/blob/develop/Quickref.md>
+
+- <https://github.com/reflex-frp/reflex-dom/blob/develop/Quickref.md>
