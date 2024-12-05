@@ -1,6 +1,6 @@
 # Human Task Scheduler
 
-A web app as a static website built using Reflex-DOM, a Haskell web framework following the pure FRP *(functional reactive programming)* paradigm, in which anyone can input
+A web app as a static website built using [Reflex-DOM](https://github.com/reflex-frp/reflex-dom), a Haskell web framework following the FRP *(functional reactive programming)* paradigm, in which anyone can input
 
 - their working hours (calendar),
 
@@ -10,7 +10,7 @@ A web app as a static website built using Reflex-DOM, a Haskell web framework fo
 
 following the specified format, and the web app will automagically compute recommended times to work on those tasks, subject to humane constraints such as the obvious completion-before-deadline.
 
-As the name of the project suggests, the genetic algorithm will eventually be fully implemented to do so.
+As the name of the project suggests, the genetic algorithm will eventually be fully implemented to do so, with a specific objective function to minimize.
 
 ## Online usage
 
@@ -34,7 +34,7 @@ This web app is a standalone static webpage, so you can put it anywhere you like
 
     It should be lightweight.
 
-3. Install Reflx-DOM via the Nix package manager, specifically by installing [Reflex Platform](https://github.com/reflex-frp/reflex-platform).
+3. Install Reflex-DOM via the Nix package manager, specifically by installing [Reflex Platform](https://github.com/reflex-frp/reflex-platform).
 
     Make sure to activate the nix caches as instructed so it would take at most a couple of hours rather than at least an entire day, and so that it wouldn't take up more space with all the intermediate compilation files. Even then, you will still need at least 20 (twenty) GB of disk space free.
 
