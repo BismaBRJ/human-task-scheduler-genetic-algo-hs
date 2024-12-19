@@ -6,15 +6,18 @@
 
 ## for LaTeX
 
-### some directories
-*.pdf
-
 ### some core latex/pdflatex auxiliary files
 *.aux
 *.fls
 *.log
 *.out
 *.toc
+
+### some directories
+*.pdf
+
+### some intermediate documents
+*.xdv
 
 ### some build tool auxiliary files
 *.fdb_latexmk
@@ -26,6 +29,9 @@
 ### some beamer auxiliary files
 *.nav
 *.snm
+
+### minted
+_minted*
 
 ### more at
 ### https://github.com/github/gitignore
