@@ -1,0 +1,13 @@
+\frametitle{Penggunaan \textit {Applicative Functor}}
+\begin{minted}{haskell}
+el "h2" $ text "Tasks"
+...
+el "p" $ text "Example: [(\"task1\",
+    (1,4), 1), (\"task2\", (2,3), 2)]"
+taskListInput <- textArea def
+let hts = fromMaybe tempHumanTasks .
+          readMaybe . T.unpack <$>
+          value taskListInput
+el "p" $ text "Value received:"
+display hts
+\end{minted}
